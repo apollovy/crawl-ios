@@ -1,0 +1,12 @@
+[submodule "Libraries/SDL"]
+	path = Libraries/SDL
+	url = git@github.com:apollovy/SDL.git
+[submodule "Libraries/SDL_image"]
+	path = Libraries/SDL_image
+	url = git@github.com:apollovy/SDL_image.git
+[submodule "Libraries/freetype2-ios"]
+	path = Libraries/freetype2-ios
+	url = git@github.com:apollovy/freetype2-ios.git
+[submodule "Libraries/crawl"]
+	path = Libraries/crawl
+	url = git@github.com:apollovy/crawl.git
