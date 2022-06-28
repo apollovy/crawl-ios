@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B501754C286B5D8800B2E464 /* spl-tornado.cc in Sources */ = {isa = PBXBuildFile; fileRef = B5017546286B5BA300B2E464 /* spl-tornado.cc */; };
+		B501754D286B5D9200B2E464 /* spl-pick.cc in Sources */ = {isa = PBXBuildFile; fileRef = B5017548286B5BA300B2E464 /* spl-pick.cc */; };
 		B503A5ED2868E26B00C62C38 /* docs in Resources */ = {isa = PBXBuildFile; fileRef = B503A5EC2868E26B00C62C38 /* docs */; };
 		B503A5EF2868E27400C62C38 /* dat in Resources */ = {isa = PBXBuildFile; fileRef = B503A5EE2868E27400C62C38 /* dat */; };
 		B503A5F22868E2F300C62C38 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B503A5F12868E2F300C62C38 /* fonts */; };
@@ -53,7 +55,6 @@
 		B503A93B2868EC6B00C62C38 /* map-knowledge.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A66D2868EC5400C62C38 /* map-knowledge.cc */; };
 		B503A93C2868EC6B00C62C38 /* uncancel.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A66F2868EC5400C62C38 /* uncancel.cc */; };
 		B503A93D2868EC6B00C62C38 /* l-mapgrd.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6702868EC5400C62C38 /* l-mapgrd.cc */; };
-		B503A93E2868EC6B00C62C38 /* zot.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6712868EC5400C62C38 /* zot.cc */; };
 		B503A93F2868EC6B00C62C38 /* luaterp.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6742868EC5400C62C38 /* luaterp.cc */; };
 		B503A9402868EC6B00C62C38 /* ghost.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6772868EC5500C62C38 /* ghost.cc */; };
 		B503A9412868EC6B00C62C38 /* macro.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A67A2868EC5500C62C38 /* macro.cc */; };
@@ -221,7 +222,6 @@
 		B503A9E42868EC6B00C62C38 /* mon-ench.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A8222868EC6100C62C38 /* mon-ench.cc */; };
 		B503A9E52868EC6B00C62C38 /* dgn-delve.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A8252868EC6100C62C38 /* dgn-delve.cc */; };
 		B503A9E62868EC6B00C62C38 /* menu.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A8292868EC6200C62C38 /* menu.cc */; };
-		B503A9E72868EC6B00C62C38 /* spl-vortex.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A82B2868EC6200C62C38 /* spl-vortex.cc */; };
 		B503A9E82868EC6B00C62C38 /* message-stream.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A82C2868EC6200C62C38 /* message-stream.cc */; };
 		B503A9E92868EC6B00C62C38 /* view.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A82F2868EC6200C62C38 /* view.cc */; };
 		B503A9EA2868EC6B00C62C38 /* tilereg-mon.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A8302868EC6200C62C38 /* tilereg-mon.cc */; };
@@ -530,8 +530,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.debug.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.debug.xcconfig"; sourceTree = "<group>"; };
-		75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.release.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.release.xcconfig"; sourceTree = "<group>"; };
+		B5017546286B5BA300B2E464 /* spl-tornado.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "spl-tornado.cc"; path = "Libraries/crawl/crawl-ref/source/spl-tornado.cc"; sourceTree = "<group>"; };
+		B5017547286B5BA300B2E464 /* confirm-butcher-type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "confirm-butcher-type.h"; path = "Libraries/crawl/crawl-ref/source/confirm-butcher-type.h"; sourceTree = "<group>"; };
+		B5017548286B5BA300B2E464 /* spl-pick.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "spl-pick.cc"; path = "Libraries/crawl/crawl-ref/source/spl-pick.cc"; sourceTree = "<group>"; };
+		B5017549286B5BA300B2E464 /* eq-type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "eq-type.h"; path = "Libraries/crawl/crawl-ref/source/eq-type.h"; sourceTree = "<group>"; };
+		B501754A286B5BA300B2E464 /* spl-pick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "spl-pick.h"; path = "Libraries/crawl/crawl-ref/source/spl-pick.h"; sourceTree = "<group>"; };
+		B501754B286B5BA400B2E464 /* eq-type-flags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "eq-type-flags.h"; path = "Libraries/crawl/crawl-ref/source/eq-type-flags.h"; sourceTree = "<group>"; };
 		B503A5EC2868E26B00C62C38 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docs; path = "Libraries/crawl/crawl-ref/docs"; sourceTree = "<group>"; };
 		B503A5EE2868E27400C62C38 /* dat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dat; path = "Libraries/crawl/crawl-ref/source/dat"; sourceTree = "<group>"; };
 		B503A5F12868E2F300C62C38 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "Libraries/crawl/crawl-ref/source/contrib/fonts"; sourceTree = "<group>"; };
@@ -558,7 +562,6 @@
 		B503A62B2868EC5200C62C38 /* playable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playable.h; path = "Libraries/crawl/crawl-ref/source/playable.h"; sourceTree = "<group>"; };
 		B503A62C2868EC5200C62C38 /* sqldbm.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sqldbm.cc; path = "Libraries/crawl/crawl-ref/source/sqldbm.cc"; sourceTree = "<group>"; };
 		B503A62D2868EC5200C62C38 /* tile-env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tile-env.h"; path = "Libraries/crawl/crawl-ref/source/tile-env.h"; sourceTree = "<group>"; };
-		B503A62E2868EC5200C62C38 /* kill-dump-options-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "kill-dump-options-type.h"; path = "Libraries/crawl/crawl-ref/source/kill-dump-options-type.h"; sourceTree = "<group>"; };
 		B503A62F2868EC5300C62C38 /* tilepick-p.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "tilepick-p.cc"; path = "Libraries/crawl/crawl-ref/source/tilepick-p.cc"; sourceTree = "<group>"; };
 		B503A6302868EC5300C62C38 /* game-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "game-type.h"; path = "Libraries/crawl/crawl-ref/source/game-type.h"; sourceTree = "<group>"; };
 		B503A6312868EC5300C62C38 /* dungeon-feature-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dungeon-feature-type.h"; path = "Libraries/crawl/crawl-ref/source/dungeon-feature-type.h"; sourceTree = "<group>"; };
@@ -625,11 +628,9 @@
 		B503A66E2868EC5400C62C38 /* coord-circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "coord-circle.h"; path = "Libraries/crawl/crawl-ref/source/coord-circle.h"; sourceTree = "<group>"; };
 		B503A66F2868EC5400C62C38 /* uncancel.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uncancel.cc; path = "Libraries/crawl/crawl-ref/source/uncancel.cc"; sourceTree = "<group>"; };
 		B503A6702868EC5400C62C38 /* l-mapgrd.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "l-mapgrd.cc"; path = "Libraries/crawl/crawl-ref/source/l-mapgrd.cc"; sourceTree = "<group>"; };
-		B503A6712868EC5400C62C38 /* zot.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zot.cc; path = "Libraries/crawl/crawl-ref/source/zot.cc"; sourceTree = "<group>"; };
 		B503A6722868EC5400C62C38 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = format.h; path = "Libraries/crawl/crawl-ref/source/format.h"; sourceTree = "<group>"; };
 		B503A6732868EC5400C62C38 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = "Libraries/crawl/crawl-ref/source/items.h"; sourceTree = "<group>"; };
 		B503A6742868EC5400C62C38 /* luaterp.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = luaterp.cc; path = "Libraries/crawl/crawl-ref/source/luaterp.cc"; sourceTree = "<group>"; };
-		B503A6752868EC5400C62C38 /* unique-creature-list-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "unique-creature-list-type.h"; path = "Libraries/crawl/crawl-ref/source/unique-creature-list-type.h"; sourceTree = "<group>"; };
 		B503A6762868EC5500C62C38 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = "Libraries/crawl/crawl-ref/source/version.h"; sourceTree = "<group>"; };
 		B503A6772868EC5500C62C38 /* ghost.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ghost.cc; path = "Libraries/crawl/crawl-ref/source/ghost.cc"; sourceTree = "<group>"; };
 		B503A6782868EC5500C62C38 /* mon-movetarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "mon-movetarget.h"; path = "Libraries/crawl/crawl-ref/source/mon-movetarget.h"; sourceTree = "<group>"; };
@@ -916,7 +917,6 @@
 		B503A7922868EC5D00C62C38 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "Libraries/crawl/crawl-ref/source/ui.h"; sourceTree = "<group>"; };
 		B503A7932868EC5D00C62C38 /* spl-book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "spl-book.h"; path = "Libraries/crawl/crawl-ref/source/spl-book.h"; sourceTree = "<group>"; };
 		B503A7942868EC5D00C62C38 /* xom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xom.h; path = "Libraries/crawl/crawl-ref/source/xom.h"; sourceTree = "<group>"; };
-		B503A7952868EC5D00C62C38 /* zot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zot.h; path = "Libraries/crawl/crawl-ref/source/zot.h"; sourceTree = "<group>"; };
 		B503A7962868EC5D00C62C38 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = status.cc; path = "Libraries/crawl/crawl-ref/source/status.cc"; sourceTree = "<group>"; };
 		B503A7972868EC5D00C62C38 /* dgn-shoals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dgn-shoals.h"; path = "Libraries/crawl/crawl-ref/source/dgn-shoals.h"; sourceTree = "<group>"; };
 		B503A7982868EC5D00C62C38 /* shout.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shout.cc; path = "Libraries/crawl/crawl-ref/source/shout.cc"; sourceTree = "<group>"; };
@@ -1065,7 +1065,6 @@
 		B503A8282868EC6100C62C38 /* abyss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = abyss.h; path = "Libraries/crawl/crawl-ref/source/abyss.h"; sourceTree = "<group>"; };
 		B503A8292868EC6200C62C38 /* menu.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menu.cc; path = "Libraries/crawl/crawl-ref/source/menu.cc"; sourceTree = "<group>"; };
 		B503A82A2868EC6200C62C38 /* command-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "command-type.h"; path = "Libraries/crawl/crawl-ref/source/command-type.h"; sourceTree = "<group>"; };
-		B503A82B2868EC6200C62C38 /* spl-vortex.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "spl-vortex.cc"; path = "Libraries/crawl/crawl-ref/source/spl-vortex.cc"; sourceTree = "<group>"; };
 		B503A82C2868EC6200C62C38 /* message-stream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "message-stream.cc"; path = "Libraries/crawl/crawl-ref/source/message-stream.cc"; sourceTree = "<group>"; };
 		B503A82D2868EC6200C62C38 /* throw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = throw.h; path = "Libraries/crawl/crawl-ref/source/throw.h"; sourceTree = "<group>"; };
 		B503A82E2868EC6200C62C38 /* god-wrath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "god-wrath.h"; path = "Libraries/crawl/crawl-ref/source/god-wrath.h"; sourceTree = "<group>"; };
@@ -1102,7 +1101,6 @@
 		B503A84D2868EC6300C62C38 /* stepdown.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stepdown.cc; path = "Libraries/crawl/crawl-ref/source/stepdown.cc"; sourceTree = "<group>"; };
 		B503A84E2868EC6300C62C38 /* energy-use-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "energy-use-type.h"; path = "Libraries/crawl/crawl-ref/source/energy-use-type.h"; sourceTree = "<group>"; };
 		B503A84F2868EC6300C62C38 /* god-conduct.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "god-conduct.cc"; path = "Libraries/crawl/crawl-ref/source/god-conduct.cc"; sourceTree = "<group>"; };
-		B503A8502868EC6300C62C38 /* lookup-help-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "lookup-help-type.h"; path = "Libraries/crawl/crawl-ref/source/lookup-help-type.h"; sourceTree = "<group>"; };
 		B503A8512868EC6300C62C38 /* player-equip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "player-equip.h"; path = "Libraries/crawl/crawl-ref/source/player-equip.h"; sourceTree = "<group>"; };
 		B503A8522868EC6300C62C38 /* random.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random.cc; path = "Libraries/crawl/crawl-ref/source/random.cc"; sourceTree = "<group>"; };
 		B503A8532868EC6300C62C38 /* god-item.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "god-item.cc"; path = "Libraries/crawl/crawl-ref/source/god-item.cc"; sourceTree = "<group>"; };
@@ -1178,7 +1176,6 @@
 		B503A8992868EC6600C62C38 /* threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Libraries/crawl/crawl-ref/source/threads.h"; sourceTree = "<group>"; };
 		B503A89A2868EC6600C62C38 /* l-defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "l-defs.h"; path = "Libraries/crawl/crawl-ref/source/l-defs.h"; sourceTree = "<group>"; };
 		B503A89B2868EC6600C62C38 /* attitude-change.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "attitude-change.cc"; path = "Libraries/crawl/crawl-ref/source/attitude-change.cc"; sourceTree = "<group>"; };
-		B503A89C2868EC6600C62C38 /* level-gen-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "level-gen-type.h"; path = "Libraries/crawl/crawl-ref/source/level-gen-type.h"; sourceTree = "<group>"; };
 		B503A89D2868EC6600C62C38 /* tilereg-msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tilereg-msg.h"; path = "Libraries/crawl/crawl-ref/source/tilereg-msg.h"; sourceTree = "<group>"; };
 		B503A89E2868EC6600C62C38 /* flang-t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "flang-t.h"; path = "Libraries/crawl/crawl-ref/source/flang-t.h"; sourceTree = "<group>"; };
 		B503A89F2868EC6600C62C38 /* dgn-proclayouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dgn-proclayouts.h"; path = "Libraries/crawl/crawl-ref/source/dgn-proclayouts.h"; sourceTree = "<group>"; };
@@ -1278,7 +1275,6 @@
 		B503A8FD2868EC6A00C62C38 /* mgen-enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "mgen-enum.h"; path = "Libraries/crawl/crawl-ref/source/mgen-enum.h"; sourceTree = "<group>"; };
 		B503A8FE2868EC6A00C62C38 /* mon-info.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "mon-info.cc"; path = "Libraries/crawl/crawl-ref/source/mon-info.cc"; sourceTree = "<group>"; };
 		B503A8FF2868EC6A00C62C38 /* dgn-delve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dgn-delve.h"; path = "Libraries/crawl/crawl-ref/source/dgn-delve.h"; sourceTree = "<group>"; };
-		B503A9002868EC6A00C62C38 /* curse-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "curse-type.h"; path = "Libraries/crawl/crawl-ref/source/curse-type.h"; sourceTree = "<group>"; };
 		B503A9012868EC6A00C62C38 /* orb-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "orb-type.h"; path = "Libraries/crawl/crawl-ref/source/orb-type.h"; sourceTree = "<group>"; };
 		B503A9022868EC6A00C62C38 /* daction-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "daction-type.h"; path = "Libraries/crawl/crawl-ref/source/daction-type.h"; sourceTree = "<group>"; };
 		B503A9032868EC6A00C62C38 /* tilereg-tab.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "tilereg-tab.cc"; path = "Libraries/crawl/crawl-ref/source/tilereg-tab.cc"; sourceTree = "<group>"; };
@@ -1561,6 +1557,7 @@
 				B503A64B2868EC5300C62C38 /* compflag.h */,
 				B503A8472868EC6300C62C38 /* conduct-type.h */,
 				B503A6792868EC5500C62C38 /* config.h */,
+				B5017547286B5BA300B2E464 /* confirm-butcher-type.h */,
 				B503A8592868EC6300C62C38 /* confirm-prompt-type.h */,
 				B503A7862868EC5C00C62C38 /* coord-circle.cc */,
 				B503A66E2868EC5400C62C38 /* coord-circle.h */,
@@ -1575,7 +1572,6 @@
 				B503A7162868EC5900C62C38 /* crash.h */,
 				B503A80A2868EC6000C62C38 /* ctest.cc */,
 				B503A6AF2868EC5600C62C38 /* ctest.h */,
-				B503A9002868EC6A00C62C38 /* curse-type.h */,
 				B503A7682868EC5B00C62C38 /* cursor-type.h */,
 				B503A9022868EC6A00C62C38 /* daction-type.h */,
 				B503A70B2868EC5900C62C38 /* dactions.cc */,
@@ -1652,6 +1648,8 @@
 				B503A7192868EC5900C62C38 /* english.h */,
 				B503A8482868EC6300C62C38 /* enum.h */,
 				B503A78D2868EC5C00C62C38 /* env.h */,
+				B501754B286B5BA400B2E464 /* eq-type-flags.h */,
+				B5017549286B5BA300B2E464 /* eq-type.h */,
 				B503A75D2868EC5B00C62C38 /* equipment-type.h */,
 				B503A7602868EC5B00C62C38 /* errors.cc */,
 				B503A8F62868EC6900C62C38 /* errors.h */,
@@ -1751,7 +1749,6 @@
 				B503A7522868EC5B00C62C38 /* json.h */,
 				B503A7E02868EC5F00C62C38 /* KeymapContext.h */,
 				B503A87D2868EC6500C62C38 /* kill-category.h */,
-				B503A62E2868EC5200C62C38 /* kill-dump-options-type.h */,
 				B503A9092868EC6A00C62C38 /* kill-method-type.h */,
 				B503A6A02868EC5600C62C38 /* killer-type.h */,
 				B503A7D12868EC5F00C62C38 /* kills.cc */,
@@ -1792,7 +1789,6 @@
 				B503A8BE2868EC6700C62C38 /* lang-t.h */,
 				B503A6592868EC5400C62C38 /* lev-pand.cc */,
 				B503A80B2868EC6000C62C38 /* lev-pand.h */,
-				B503A89C2868EC6600C62C38 /* level-gen-type.h */,
 				B503A9082868EC6A00C62C38 /* level-id.h */,
 				B503A79A2868EC5D00C62C38 /* level-state-type.h */,
 				B503A6672868EC5400C62C38 /* libconsole.h */,
@@ -1803,7 +1799,6 @@
 				B503A64F2868EC5300C62C38 /* libw32c.h */,
 				B503A6692868EC5400C62C38 /* loading-screen.cc */,
 				B503A7B22868EC5E00C62C38 /* loading-screen.h */,
-				B503A8502868EC6300C62C38 /* lookup-help-type.h */,
 				B503A6822868EC5500C62C38 /* lookup-help.cc */,
 				B503A6572868EC5400C62C38 /* lookup-help.h */,
 				B503A7382868EC5A00C62C38 /* los-def.cc */,
@@ -2054,15 +2049,17 @@
 				B503A7EE2868EC6000C62C38 /* spl-monench.h */,
 				B503A90B2868EC6A00C62C38 /* spl-other.cc */,
 				B503A7DC2868EC5F00C62C38 /* spl-other.h */,
+				B5017548286B5BA300B2E464 /* spl-pick.cc */,
+				B501754A286B5BA300B2E464 /* spl-pick.h */,
 				B503A8062868EC6000C62C38 /* spl-selfench.cc */,
 				B503A6C02868EC5700C62C38 /* spl-selfench.h */,
 				B503A8E22868EC6800C62C38 /* spl-summoning.cc */,
 				B503A6292868EC5200C62C38 /* spl-summoning.h */,
+				B5017546286B5BA300B2E464 /* spl-tornado.cc */,
 				B503A8372868EC6200C62C38 /* spl-transloc.cc */,
 				B503A6B72868EC5600C62C38 /* spl-transloc.h */,
 				B503A6CD2868EC5700C62C38 /* spl-util.cc */,
 				B503A8422868EC6200C62C38 /* spl-util.h */,
-				B503A82B2868EC6200C62C38 /* spl-vortex.cc */,
 				B503A7432868EC5A00C62C38 /* spl-wpnench.cc */,
 				B503A90D2868EC6A00C62C38 /* spl-wpnench.h */,
 				B503A8542868EC6300C62C38 /* spl-zap.cc */,
@@ -2202,7 +2199,6 @@
 				B503A65C2868EC5400C62C38 /* undead-state-type.h */,
 				B503A8442868EC6200C62C38 /* unicode.cc */,
 				B503A7C32868EC5E00C62C38 /* unicode.h */,
-				B503A6752868EC5400C62C38 /* unique-creature-list-type.h */,
 				B503A7262868EC5900C62C38 /* unique-item-status-type.h */,
 				B503A6642868EC5400C62C38 /* unwind.h */,
 				B503A67C2868EC5500C62C38 /* version.cc */,
@@ -2243,8 +2239,6 @@
 				B503A7052868EC5800C62C38 /* xp-tracking-type.h */,
 				B503A7182868EC5900C62C38 /* zap-data.h */,
 				B503A6F22868EC5800C62C38 /* zap-type.h */,
-				B503A6712868EC5400C62C38 /* zot.cc */,
-				B503A7952868EC5D00C62C38 /* zot.h */,
 			);
 			name = source;
 			sourceTree = "<group>";
@@ -2889,7 +2883,6 @@
 				B503AA192868EC6B00C62C38 /* l-file.cc in Sources */,
 				B503A9562868EC6B00C62C38 /* describe.cc in Sources */,
 				B577E9B0285FAAE4002E7FCF /* lgc.c in Sources */,
-				B503A93E2868EC6B00C62C38 /* zot.cc in Sources */,
 				B503AA132868EC6B00C62C38 /* player-equip.cc in Sources */,
 				B503AA0D2868EC6B00C62C38 /* sprint.cc in Sources */,
 				B503A92F2868EC6B00C62C38 /* l-subvault.cc in Sources */,
@@ -2975,7 +2968,6 @@
 				B503A9502868EC6B00C62C38 /* ray.cc in Sources */,
 				B503A9AB2868EC6B00C62C38 /* end.cc in Sources */,
 				B503A9FF2868EC6B00C62C38 /* l-you.cc in Sources */,
-				B503A9E72868EC6B00C62C38 /* spl-vortex.cc in Sources */,
 				B503A9EF2868EC6B00C62C38 /* l-dgnit.cc in Sources */,
 				B503A9232868EC6B00C62C38 /* sqldbm.cc in Sources */,
 				B503A9242868EC6B00C62C38 /* tilepick-p.cc in Sources */,
@@ -3030,6 +3022,7 @@
 				B503AA032868EC6B00C62C38 /* mon-gear.cc in Sources */,
 				B577E9A9285FAAE4002E7FCF /* lzio.c in Sources */,
 				B503A9CF2868EC6B00C62C38 /* l-dgntil.cc in Sources */,
+				B501754C286B5D8800B2E464 /* spl-tornado.cc in Sources */,
 				B503A9C52868EC6B00C62C38 /* ng-restr.cc in Sources */,
 				B503A9B52868EC6B00C62C38 /* areas.cc in Sources */,
 				B503A9AC2868EC6B00C62C38 /* game-options.cc in Sources */,
@@ -3093,6 +3086,7 @@
 				B577E9AB285FAAE4002E7FCF /* linit.c in Sources */,
 				B503AA042868EC6B00C62C38 /* tiledgnbuf.cc in Sources */,
 				B503A95B2868EC6B00C62C38 /* mon-util.cc in Sources */,
+				B501754D286B5D9200B2E464 /* spl-pick.cc in Sources */,
 				B503A9962868EC6B00C62C38 /* format.cc in Sources */,
 				B503A9582868EC6B00C62C38 /* viewgeom.cc in Sources */,
 				B558E325286E388500678CF5 /* path_utils.m in Sources */,
