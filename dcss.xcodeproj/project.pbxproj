@@ -693,7 +693,6 @@
 		B503A6C62868EC5700C62C38 /* tilemcache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tilemcache.cc; path = "Libraries/crawl/crawl-ref/source/tilemcache.cc"; sourceTree = "<group>"; };
 		B503A6C72868EC5700C62C38 /* tag-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tag-version.h"; path = "Libraries/crawl/crawl-ref/source/tag-version.h"; sourceTree = "<group>"; };
 		B503A6C82868EC5700C62C38 /* tilereg-cmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tilereg-cmd.h"; path = "Libraries/crawl/crawl-ref/source/tilereg-cmd.h"; sourceTree = "<group>"; };
-		B503A6C92868EC5700C62C38 /* libunix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = libunix.cc; path = "Libraries/crawl/crawl-ref/source/libunix.cc"; sourceTree = "<group>"; };
 		B503A6CA2868EC5700C62C38 /* random-pick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "random-pick.h"; path = "Libraries/crawl/crawl-ref/source/random-pick.h"; sourceTree = "<group>"; };
 		B503A6CB2868EC5700C62C38 /* tileview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tileview.h; path = "Libraries/crawl/crawl-ref/source/tileview.h"; sourceTree = "<group>"; };
 		B503A6CC2868EC5700C62C38 /* throw.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = throw.cc; path = "Libraries/crawl/crawl-ref/source/throw.cc"; sourceTree = "<group>"; };
@@ -990,7 +989,6 @@
 		B503A7EF2868EC6000C62C38 /* mapmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mapmark.h; path = "Libraries/crawl/crawl-ref/source/mapmark.h"; sourceTree = "<group>"; };
 		B503A7F02868EC6000C62C38 /* timed-effects.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "timed-effects.cc"; path = "Libraries/crawl/crawl-ref/source/timed-effects.cc"; sourceTree = "<group>"; };
 		B503A7F12868EC6000C62C38 /* store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = store.h; path = "Libraries/crawl/crawl-ref/source/store.h"; sourceTree = "<group>"; };
-		B503A7F22868EC6000C62C38 /* libunix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libunix.h; path = "Libraries/crawl/crawl-ref/source/libunix.h"; sourceTree = "<group>"; };
 		B503A7F32868EC6000C62C38 /* l-los.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "l-los.cc"; path = "Libraries/crawl/crawl-ref/source/l-los.cc"; sourceTree = "<group>"; };
 		B503A7F42868EC6000C62C38 /* english.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = english.cc; path = "Libraries/crawl/crawl-ref/source/english.cc"; sourceTree = "<group>"; };
 		B503A7F52868EC6000C62C38 /* l-dgntil.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "l-dgntil.cc"; path = "Libraries/crawl/crawl-ref/source/l-dgntil.cc"; sourceTree = "<group>"; };
@@ -1739,8 +1737,6 @@
 				B503A79A2868EC5D00C62C38 /* level-state-type.h */,
 				B503A6672868EC5400C62C38 /* libconsole.h */,
 				B503A8842868EC6500C62C38 /* libgui.cc */,
-				B503A6C92868EC5700C62C38 /* libunix.cc */,
-				B503A7F22868EC6000C62C38 /* libunix.h */,
 				B503A7B02868EC5E00C62C38 /* libutil.cc */,
 				B503A6E72868EC5800C62C38 /* libutil.h */,
 				B503A6A12868EC5600C62C38 /* libw32c.cc */,
