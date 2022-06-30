@@ -5,7 +5,6 @@
 //  Created by Аполлов Юрий Андреевич on 25.06.2022.
 //
 #import <Foundation/Foundation.h>
-#import <SDL_main.h>
 
 
 extern int DCSS_main(int argc, char* argv[]);
@@ -27,17 +26,17 @@ char** cArrayFromNSArray(NSArray* array)
     return cargs;
 }
 
-int main(int argc, char* argv[])
+extern "C" {
+int CDDA_iOS_main(NSString* documentPath)
 {
-    NSURL *documentUrl = [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
     NSArray<NSString*>* arguments = NSProcessInfo.processInfo.arguments;
-    NSString* datadir = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/data/"];
     NSArray<NSString*>* newArguments = [arguments arrayByAddingObjectsFromArray:@[
-        @"-dir", [documentUrl path],
+        @"-dir", documentPath,
 
     ]];
     int newArgumentsCount = newArguments.count;
     char** stringArgs = cArrayFromNSArray(newArguments);
 
     return DCSS_main(newArgumentsCount, stringArgs);
+}
 }

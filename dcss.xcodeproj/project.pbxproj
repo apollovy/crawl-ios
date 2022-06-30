@@ -337,6 +337,18 @@
 		B54FB91B2860C6FC00BA35A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB91A2860C6FB00BA35A1 /* QuartzCore.framework */; };
 		B54FB91D2860C74000BA35A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB9182860C67800BA35A1 /* CoreGraphics.framework */; };
 		B54FB91F2860C74C00BA35A1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB91E2860C74C00BA35A1 /* ImageIO.framework */; };
+		B558E319286E388500678CF5 /* PageUpDownPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B558E303286E388500678CF5 /* PageUpDownPanGestureRecognizer.swift */; };
+		B558E31A286E388500678CF5 /* SDL_char_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E305286E388500678CF5 /* SDL_char_utils.m */; };
+		B558E31C286E388500678CF5 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B558E307286E388500678CF5 /* MenuButton.swift */; };
+		B558E31D286E388500678CF5 /* SDL_uikitview+CDDA.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E308286E388500678CF5 /* SDL_uikitview+CDDA.m */; };
+		B558E31E286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.mm in Sources */ = {isa = PBXBuildFile; fileRef = B558E30A286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.mm */; };
+		B558E320286E388500678CF5 /* GamePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E30D286E388500678CF5 /* GamePadViewController.m */; };
+		B558E321286E388500678CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E30E286E388500678CF5 /* main.m */; };
+		B558E322286E388500678CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E313286E388500678CF5 /* AppDelegate.m */; };
+		B558E324286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E315286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m */; };
+		B558E325286E388500678CF5 /* path_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E318286E388500678CF5 /* path_utils.m */; };
+		B558E331286E3B8200678CF5 /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E330286E3B8200678CF5 /* JSButton.m */; };
+		B558E348286E404600678CF5 /* ShowAndFixGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B558E314286E388500678CF5 /* ShowAndFixGestureRecognizer.swift */; };
 		B577E4BF285FA4B6002E7FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B577E4BE285FA4B6002E7FCF /* Assets.xcassets */; };
 		B577E4C2285FA4B6002E7FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B577E4C0285FA4B6002E7FCF /* LaunchScreen.storyboard */; };
 		B577E99B285FAAE4002E7FCF /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = B577E966285FAAE1002E7FCF /* ltm.c */; };
@@ -378,8 +390,13 @@
 		B577ED43285FC27D002E7FCF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B577ED42285FC278002E7FCF /* libsqlite3.tbd */; };
 		B581C7632869139200AB04A1 /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B581C7622869139100AB04A1 /* CoreHaptics.framework */; };
 		B581C769286913F200AB04A1 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B581C768286913F100AB04A1 /* Metal.framework */; };
-		B59A53C42867B14C0013E7DE /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B59A53BC2867ABB90013E7DE /* main.mm */; };
+		B59A53C42867B14C0013E7DE /* CDDA_iOS_main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B59A53BC2867ABB90013E7DE /* CDDA_iOS_main.mm */; };
+		B5A1E702286E4AE9009970E9 /* UIControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E701286E4AE9009970E9 /* UIControls.storyboard */; };
+		B5A1E703286E4BAB009970E9 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E306286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m */; };
+		B5A1E706286E536F009970E9 /* dPad-None@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E705286E536F009970E9 /* dPad-None@2x.png */; };
+		B5A1E710286E582E009970E9 /* stone_soup_icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */; };
 		B5FF5E8628638B4800D90679 /* dcss_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5FF5E8428638B4700D90679 /* dcss_ios.cpp */; };
+		BBC74CDBE5D9E93366B2C77D /* Pods_dcss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -512,6 +529,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.debug.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.debug.xcconfig"; sourceTree = "<group>"; };
+		75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.release.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.release.xcconfig"; sourceTree = "<group>"; };
 		B503A5EC2868E26B00C62C38 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docs; path = "Libraries/crawl/crawl-ref/docs"; sourceTree = "<group>"; };
 		B503A5EE2868E27400C62C38 /* dat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dat; path = "Libraries/crawl/crawl-ref/source/dat"; sourceTree = "<group>"; };
 		B503A5F12868E2F300C62C38 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "Libraries/crawl/crawl-ref/source/contrib/fonts"; sourceTree = "<group>"; };
@@ -1306,11 +1325,34 @@
 		B54FB9182860C67800BA35A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B54FB91A2860C6FB00BA35A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B54FB91E2860C74C00BA35A1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B558E302286E388500678CF5 /* GamePadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePadViewController.h; sourceTree = "<group>"; };
+		B558E303286E388500678CF5 /* PageUpDownPanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageUpDownPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		B558E304286E388500678CF5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B558E305286E388500678CF5 /* SDL_char_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDL_char_utils.m; sourceTree = "<group>"; };
+		B558E306286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDL_uikitviewcontroller+KeyboardKeysHandling.m"; sourceTree = "<group>"; };
+		B558E307286E388500678CF5 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		B558E308286E388500678CF5 /* SDL_uikitview+CDDA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDL_uikitview+CDDA.m"; sourceTree = "<group>"; };
+		B558E309286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_uikitviewcontroller+VirtualKeyboardInput.h"; sourceTree = "<group>"; };
+		B558E30A286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SDL_uikitviewcontroller+Gamepad.mm"; sourceTree = "<group>"; };
+		B558E30B286E388500678CF5 /* path_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path_utils.h; sourceTree = "<group>"; };
+		B558E30C286E388500678CF5 /* ZipArchiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipArchiver.swift; sourceTree = "<group>"; };
+		B558E30D286E388500678CF5 /* GamePadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePadViewController.m; sourceTree = "<group>"; };
+		B558E30E286E388500678CF5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B558E30F286E388500678CF5 /* CDDA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CDDA-Bridging-Header.h"; sourceTree = "<group>"; };
+		B558E310286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_uikitviewcontroller+KeyboardKeysHandling.h"; sourceTree = "<group>"; };
+		B558E311286E388500678CF5 /* SDL_char_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_char_utils.h; sourceTree = "<group>"; };
+		B558E312286E388500678CF5 /* CDDA_iOS_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDA_iOS_main.h; sourceTree = "<group>"; };
+		B558E313286E388500678CF5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B558E314286E388500678CF5 /* ShowAndFixGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAndFixGestureRecognizer.swift; sourceTree = "<group>"; };
+		B558E315286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDL_uikitviewcontroller+VirtualKeyboardInput.m"; sourceTree = "<group>"; };
+		B558E316286E388500678CF5 /* SDL_uikitview+CDDA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_uikitview+CDDA.h"; sourceTree = "<group>"; };
+		B558E317286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_uikitviewcontroller+Gamepad.h"; sourceTree = "<group>"; };
+		B558E318286E388500678CF5 /* path_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = path_utils.m; sourceTree = "<group>"; };
+		B558E330286E3B8200678CF5 /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSButton.m; path = Libraries/JSController/Controller/JSButton.m; sourceTree = "<group>"; };
 		B577E4B2285FA4B5002E7FCF /* dcss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dcss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B577E4BE285FA4B6002E7FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B577E4C1285FA4B6002E7FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B577E4C3285FA4B6002E7FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B577E4CA285FA500002E7FCF /* dcss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dcss-Bridging-Header.h"; sourceTree = "<group>"; };
 		B577E904285FA9B9002E7FCF /* libintl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libintl.a; path = dcss/Binaries/glib/lib/libintl.a; sourceTree = "<group>"; };
 		B577E964285FAAE1002E7FCF /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
 		B577E965285FAAE1002E7FCF /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
@@ -1386,9 +1428,14 @@
 		B581C764286913A300AB04A1 /* libMTLCapture.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLCapture.tbd; path = usr/lib/libMTLCapture.tbd; sourceTree = SDKROOT; };
 		B581C766286913C400AB04A1 /* libMTLToolsDiagnostics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLToolsDiagnostics.tbd; path = usr/lib/libMTLToolsDiagnostics.tbd; sourceTree = SDKROOT; };
 		B581C768286913F100AB04A1 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		B59A53BC2867ABB90013E7DE /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		B59A53BC2867ABB90013E7DE /* CDDA_iOS_main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CDDA_iOS_main.mm; sourceTree = "<group>"; };
+		B5A1E701286E4AE9009970E9 /* UIControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIControls.storyboard; sourceTree = "<group>"; };
+		B5A1E704286E4CC0009970E9 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSButton.h; path = Libraries/JSController/Controller/JSButton.h; sourceTree = "<group>"; };
+		B5A1E705286E536F009970E9 /* dPad-None@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dPad-None@2x.png"; path = "Libraries/Cataclysm-DDA-iOS-commons/Bundle/JSDPad/dPad-None@2x.png"; sourceTree = "<group>"; };
+		B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stone_soup_icon-512x512.png"; path = "Libraries/crawl/crawl-ref/source/dat/tiles/stone_soup_icon-512x512.png"; sourceTree = SOURCE_ROOT; };
 		B5FF5E8428638B4700D90679 /* dcss_ios.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dcss_ios.cpp; sourceTree = "<group>"; };
 		B5FF5E8528638B4700D90679 /* dcss_ios.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dcss_ios.hpp; sourceTree = "<group>"; };
+		C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dcss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1415,12 +1462,22 @@
 				B54FB9142860C61800BA35A1 /* UIKit.framework in Frameworks */,
 				B577E9BC285FAB13002E7FCF /* libiconv.tbd in Frameworks */,
 				B577ED43285FC27D002E7FCF /* libsqlite3.tbd in Frameworks */,
+				BBC74CDBE5D9E93366B2C77D /* Pods_dcss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A75D93222F403C86BE24195D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */,
+				75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B503A5F02868E27E00C62C38 /* source */ = {
 			isa = PBXGroup;
 			children = (
@@ -2226,6 +2283,8 @@
 		B51223F5286A5E40002A7C79 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B558E32F286E3A5900678CF5 /* JSController */,
+				B558E2EE286E386C00678CF5 /* Cataclysm-DDA-iOS-commons */,
 				B535E420286A6DF200B71D28 /* freetype2.xcodeproj */,
 				B5122420286A5E63002A7C79 /* SDL_image.xcodeproj */,
 				B51223F6286A5E58002A7C79 /* SDL.xcodeproj */,
@@ -2270,6 +2329,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B558E2EE286E386C00678CF5 /* Cataclysm-DDA-iOS-commons */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1E705286E536F009970E9 /* dPad-None@2x.png */,
+				B558E301286E388500678CF5 /* source */,
+			);
+			name = "Cataclysm-DDA-iOS-commons";
+			sourceTree = "<group>";
+		};
+		B558E301286E388500678CF5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B558E304286E388500678CF5 /* AppDelegate.h */,
+				B558E313286E388500678CF5 /* AppDelegate.m */,
+				B558E312286E388500678CF5 /* CDDA_iOS_main.h */,
+				B558E30F286E388500678CF5 /* CDDA-Bridging-Header.h */,
+				B558E302286E388500678CF5 /* GamePadViewController.h */,
+				B558E30D286E388500678CF5 /* GamePadViewController.m */,
+				B558E30E286E388500678CF5 /* main.m */,
+				B558E307286E388500678CF5 /* MenuButton.swift */,
+				B558E303286E388500678CF5 /* PageUpDownPanGestureRecognizer.swift */,
+				B558E30B286E388500678CF5 /* path_utils.h */,
+				B558E318286E388500678CF5 /* path_utils.m */,
+				B558E311286E388500678CF5 /* SDL_char_utils.h */,
+				B558E305286E388500678CF5 /* SDL_char_utils.m */,
+				B558E316286E388500678CF5 /* SDL_uikitview+CDDA.h */,
+				B558E308286E388500678CF5 /* SDL_uikitview+CDDA.m */,
+				B558E317286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.h */,
+				B558E30A286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.mm */,
+				B558E310286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.h */,
+				B558E306286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m */,
+				B558E309286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.h */,
+				B558E315286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m */,
+				B558E314286E388500678CF5 /* ShowAndFixGestureRecognizer.swift */,
+				B558E30C286E388500678CF5 /* ZipArchiver.swift */,
+			);
+			name = source;
+			path = "Libraries/Cataclysm-DDA-iOS-commons/source";
+			sourceTree = "<group>";
+		};
+		B558E32F286E3A5900678CF5 /* JSController */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1E704286E4CC0009970E9 /* JSButton.h */,
+				B558E330286E3B8200678CF5 /* JSButton.m */,
+			);
+			name = JSController;
+			sourceTree = "<group>";
+		};
 		B577E4A9285FA4B5002E7FCF = {
 			isa = PBXGroup;
 			children = (
@@ -2278,6 +2386,7 @@
 				B577E4B4285FA4B5002E7FCF /* dcss */,
 				B577E4B3285FA4B5002E7FCF /* Products */,
 				B577E903285FA9B9002E7FCF /* Frameworks */,
+				A75D93222F403C86BE24195D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2292,13 +2401,14 @@
 		B577E4B4285FA4B5002E7FCF /* dcss */ = {
 			isa = PBXGroup;
 			children = (
-				B577E4CA285FA500002E7FCF /* dcss-Bridging-Header.h */,
+				B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */,
 				B577E4BE285FA4B6002E7FCF /* Assets.xcassets */,
 				B577E4C0285FA4B6002E7FCF /* LaunchScreen.storyboard */,
 				B577E4C3285FA4B6002E7FCF /* Info.plist */,
 				B5FF5E8428638B4700D90679 /* dcss_ios.cpp */,
 				B5FF5E8528638B4700D90679 /* dcss_ios.hpp */,
-				B59A53BC2867ABB90013E7DE /* main.mm */,
+				B59A53BC2867ABB90013E7DE /* CDDA_iOS_main.mm */,
+				B5A1E701286E4AE9009970E9 /* UIControls.storyboard */,
 			);
 			path = dcss;
 			sourceTree = "<group>";
@@ -2344,6 +2454,7 @@
 				B577ED27285FBD0D002E7FCF /* GameController.framework */,
 				B577E9BB285FAB07002E7FCF /* libiconv.tbd */,
 				B577E904285FA9B9002E7FCF /* libintl.a */,
+				C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2429,9 +2540,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B577E4C6285FA4B6002E7FCF /* Build configuration list for PBXNativeTarget "dcss" */;
 			buildPhases = (
+				6D1DAC223E03AA1942F38683 /* [CP] Check Pods Manifest.lock */,
 				B577E4AE285FA4B5002E7FCF /* Sources */,
 				B577E4AF285FA4B5002E7FCF /* Frameworks */,
 				B577E4B0285FA4B5002E7FCF /* Resources */,
+				D60CA821362A0FA0374F17E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2623,7 +2736,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B503A5EF2868E27400C62C38 /* dat in Resources */,
+				B5A1E706286E536F009970E9 /* dPad-None@2x.png in Resources */,
+				B5A1E710286E582E009970E9 /* stone_soup_icon-512x512.png in Resources */,
 				B503A5ED2868E26B00C62C38 /* docs in Resources */,
+				B5A1E702286E4AE9009970E9 /* UIControls.storyboard in Resources */,
 				B503A5F22868E2F300C62C38 /* fonts in Resources */,
 				B577E4C2285FA4B6002E7FCF /* LaunchScreen.storyboard in Resources */,
 				B577E4BF285FA4B6002E7FCF /* Assets.xcassets in Resources */,
@@ -2631,6 +2747,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D1DAC223E03AA1942F38683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dcss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60CA821362A0FA0374F17E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B577E4AE285FA4B5002E7FCF /* Sources */ = {
@@ -2640,6 +2798,7 @@
 				B503AA602868ECAC00C62C38 /* tiledef-floor.cc in Sources */,
 				B503A93B2868EC6B00C62C38 /* map-knowledge.cc in Sources */,
 				B503A9F92868EC6B00C62C38 /* spl-zap.cc in Sources */,
+				B558E319286E388500678CF5 /* PageUpDownPanGestureRecognizer.swift in Sources */,
 				B503A9D72868EC6B00C62C38 /* initfile.cc in Sources */,
 				B503A9342868EC6B00C62C38 /* transform.cc in Sources */,
 				B503AA092868EC6B00C62C38 /* attack.cc in Sources */,
@@ -2647,6 +2806,7 @@
 				B503A9B92868EC6B00C62C38 /* fprop.cc in Sources */,
 				B503A94B2868EC6B00C62C38 /* dgn-layouts.cc in Sources */,
 				B503AA1C2868EC6B00C62C38 /* spl-damage.cc in Sources */,
+				B558E31E286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.mm in Sources */,
 				B503A96A2868EC6B00C62C38 /* mon-place.cc in Sources */,
 				B503A9A52868EC6B00C62C38 /* sound.cc in Sources */,
 				B503A9912868EC6B00C62C38 /* potion.cc in Sources */,
@@ -2676,6 +2836,7 @@
 				B503AA1B2868EC6B00C62C38 /* worley.cc in Sources */,
 				B503A9FC2868EC6B00C62C38 /* pcg.cc in Sources */,
 				B503AA102868EC6B00C62C38 /* tileweb-text.cc in Sources */,
+				B558E31C286E388500678CF5 /* MenuButton.swift in Sources */,
 				B503AA5F2868ECAC00C62C38 /* tiledef-dngn.cc in Sources */,
 				B577E9A0285FAAE4002E7FCF /* lfunc.c in Sources */,
 				B503A9B12868EC6B00C62C38 /* store.cc in Sources */,
@@ -2683,7 +2844,7 @@
 				B503A9412868EC6B00C62C38 /* macro.cc in Sources */,
 				B503A97D2868EC6B00C62C38 /* spl-book.cc in Sources */,
 				B503A9B82868EC6B00C62C38 /* death-curse.cc in Sources */,
-				B59A53C42867B14C0013E7DE /* main.mm in Sources */,
+				B59A53C42867B14C0013E7DE /* CDDA_iOS_main.mm in Sources */,
 				B503A97A2868EC6B00C62C38 /* teleport.cc in Sources */,
 				B503A9642868EC6B00C62C38 /* spl-monench.cc in Sources */,
 				B503AA2C2868EC6B00C62C38 /* shopping.cc in Sources */,
@@ -2757,6 +2918,7 @@
 				B503A9B62868EC6B00C62C38 /* mon-abil.cc in Sources */,
 				B503A98E2868EC6B00C62C38 /* movement.cc in Sources */,
 				B503AA222868EC6B00C62C38 /* showsymb.cc in Sources */,
+				B558E31D286E388500678CF5 /* SDL_uikitview+CDDA.m in Sources */,
 				B503A97C2868EC6B00C62C38 /* l-wiz.cc in Sources */,
 				B503A91A2868EC6B00C62C38 /* mon-transit.cc in Sources */,
 				B503A9442868EC6B00C62C38 /* l-view.cc in Sources */,
@@ -2777,6 +2939,7 @@
 				B503A96F2868EC6B00C62C38 /* dactions.cc in Sources */,
 				B503A9E62868EC6B00C62C38 /* menu.cc in Sources */,
 				B503AA392868EC6B00C62C38 /* god-abil.cc in Sources */,
+				B558E348286E404600678CF5 /* ShowAndFixGestureRecognizer.swift in Sources */,
 				B503A9202868EC6B00C62C38 /* clua.cc in Sources */,
 				B503A9432868EC6B00C62C38 /* melee-attack.cc in Sources */,
 				B503AA462868EC6B00C62C38 /* mon-speak.cc in Sources */,
@@ -2799,6 +2962,7 @@
 				B503A9CD2868EC6B00C62C38 /* l-los.cc in Sources */,
 				B503AA072868EC6B00C62C38 /* god-menu.cc in Sources */,
 				B503AA292868EC6B00C62C38 /* glwrapper.cc in Sources */,
+				B558E320286E388500678CF5 /* GamePadViewController.m in Sources */,
 				B503A9AA2868EC6B00C62C38 /* shout.cc in Sources */,
 				B503A9472868EC6B00C62C38 /* lookup-help.cc in Sources */,
 				B503AA272868EC6B00C62C38 /* tilereg-text.cc in Sources */,
@@ -2814,6 +2978,7 @@
 				B503A9222868EC6B00C62C38 /* acquire.cc in Sources */,
 				B503A9A82868EC6B00C62C38 /* god-prayer.cc in Sources */,
 				B503AA122868EC6B00C62C38 /* tilereg-cmd.cc in Sources */,
+				B558E331286E3B8200678CF5 /* JSButton.m in Sources */,
 				B503A94F2868EC6B00C62C38 /* playable.cc in Sources */,
 				B503A9302868EC6B00C62C38 /* ranged-attack.cc in Sources */,
 				B503A9D92868EC6B00C62C38 /* tilereg-abl.cc in Sources */,
@@ -2823,6 +2988,7 @@
 				B503AA052868EC6B00C62C38 /* tilereg-mem.cc in Sources */,
 				B503A9512868EC6B00C62C38 /* dgn-swamp.cc in Sources */,
 				B503AA342868EC6B00C62C38 /* ability.cc in Sources */,
+				B558E322286E388500678CF5 /* AppDelegate.m in Sources */,
 				B503A99A2868EC6B00C62C38 /* invent.cc in Sources */,
 				B503A98B2868EC6B00C62C38 /* wcwidth.cc in Sources */,
 				B503AA372868EC6B00C62C38 /* wiz-fsim.cc in Sources */,
@@ -2851,8 +3017,10 @@
 				B503AA2B2868EC6B00C62C38 /* l-spells.cc in Sources */,
 				B503A9C02868EC6B00C62C38 /* los.cc in Sources */,
 				B503A9992868EC6B00C62C38 /* hints.cc in Sources */,
+				B558E324286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m in Sources */,
 				B577E9B1285FAAE4002E7FCF /* ltable.c in Sources */,
 				B503A9E42868EC6B00C62C38 /* mon-ench.cc in Sources */,
+				B5A1E703286E4BAB009970E9 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m in Sources */,
 				B503AA032868EC6B00C62C38 /* mon-gear.cc in Sources */,
 				B577E9A9285FAAE4002E7FCF /* lzio.c in Sources */,
 				B503A9CF2868EC6B00C62C38 /* l-dgntil.cc in Sources */,
@@ -2870,6 +3038,7 @@
 				B503A99E2868EC6B00C62C38 /* items.cc in Sources */,
 				B503A9662868EC6B00C62C38 /* cloud.cc in Sources */,
 				B503AA3A2868EC6B00C62C38 /* l-option.cc in Sources */,
+				B558E321286E388500678CF5 /* main.m in Sources */,
 				B503A9312868EC6B00C62C38 /* lang-fake.cc in Sources */,
 				B503A9C82868EC6B00C62C38 /* l-global.cc in Sources */,
 				B503A9F32868EC6B00C62C38 /* unicode.cc in Sources */,
@@ -2920,6 +3089,7 @@
 				B503A95B2868EC6B00C62C38 /* mon-util.cc in Sources */,
 				B503A9962868EC6B00C62C38 /* format.cc in Sources */,
 				B503A9582868EC6B00C62C38 /* viewgeom.cc in Sources */,
+				B558E325286E388500678CF5 /* path_utils.m in Sources */,
 				B503A96B2868EC6B00C62C38 /* tilereg.cc in Sources */,
 				B503A9182868EC6B00C62C38 /* feature.cc in Sources */,
 				B503A9812868EC6B00C62C38 /* los-def.cc in Sources */,
@@ -2947,6 +3117,7 @@
 				B503A9732868EC6B00C62C38 /* l-mapmrk.cc in Sources */,
 				B503A93D2868EC6B00C62C38 /* l-mapgrd.cc in Sources */,
 				B503AA452868EC6B00C62C38 /* spl-other.cc in Sources */,
+				B558E31A286E388500678CF5 /* SDL_char_utils.m in Sources */,
 				B503A9282868EC6B00C62C38 /* describe-spells.cc in Sources */,
 				B577E99F285FAAE4002E7FCF /* liolib.c in Sources */,
 				B577E9B8285FAAE4002E7FCF /* lvm.c in Sources */,
@@ -3076,13 +3247,15 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LIBRARY_SEARCH_PATHS = dcss/Binaries/glib/lib;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lz";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Cataclysm-DDA-iOS-commons/source/CDDA-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "CDDA-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (
@@ -3095,6 +3268,7 @@
 					dcss/Binaries/glib/include,
 					"Libraries/crawl/crawl-ref/source",
 					Libraries/SDL/src/video/uikit,
+					Libraries/JSController/Controller,
 				);
 			};
 			name = Debug;
@@ -3162,12 +3336,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LIBRARY_SEARCH_PATHS = dcss/Binaries/glib/lib;
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = "-lz";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Cataclysm-DDA-iOS-commons/source/CDDA-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "CDDA-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (
@@ -3180,6 +3356,7 @@
 					dcss/Binaries/glib/include,
 					"Libraries/crawl/crawl-ref/source",
 					Libraries/SDL/src/video/uikit,
+					Libraries/JSController/Controller,
 				);
 				VALIDATE_PRODUCT = YES;
 			};
@@ -3187,13 +3364,14 @@
 		};
 		B577E4C7285FA4B6002E7FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -3220,7 +3398,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "dcss-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3229,13 +3407,14 @@
 		};
 		B577E4C8285FA4B6002E7FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
@@ -3258,7 +3437,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "dcss-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
