@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'dcss' do
+  platform :ios, '9.0'
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
