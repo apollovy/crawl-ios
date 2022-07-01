@@ -118,8 +118,31 @@
                                     <outletCollection property="gestureRecognizers" destination="Kvr-e8-nu2" appends="YES" id="feU-0g-jaI"/>
                                 </connections>
                             </imageView>
-                            <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcW-s1-wMr" userLabel="Return button" customClass="JSButton">
+                            <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Gi-G38" userLabel="Control-x" customClass="JSButton">
                                 <rect key="frame" x="765" y="50" width="75" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="C-x" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unz-1B-EhN">
+                                        <rect key="frame" x="46.5" y="14" width="28.5" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemRedColor"/>
+                                        <size key="shadowOffset" width="1" height="-1"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Unz-1B-EhN" firstAttribute="centerY" secondItem="xvo-Gi-G38" secondAttribute="centerY" id="H2D-Kb-wfl"/>
+                                    <constraint firstItem="Unz-1B-EhN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xvo-Gi-G38" secondAttribute="leading" constant="20" symbolic="YES" id="MQw-rb-7HY"/>
+                                    <constraint firstAttribute="trailing" secondItem="Unz-1B-EhN" secondAttribute="trailing" id="OLM-uY-6gF"/>
+                                    <constraint firstAttribute="height" constant="50" id="dfn-Ia-9Sa"/>
+                                    <constraint firstAttribute="width" constant="75" id="rT6-pw-5lQ"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="Iwh-jC-guP" id="EjD-8E-eJ1"/>
+                                </connections>
+                            </view>
+                            <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcW-s1-wMr" userLabel="Return button" customClass="JSButton">
+                                <rect key="frame" x="765" y="100" width="75" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="⮐" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-x1-RET" userLabel="⮐">
                                         <rect key="frame" x="53" y="14.5" width="22" height="21"/>
@@ -152,10 +175,12 @@
                             <constraint firstItem="g8Y-YS-4Zm" firstAttribute="trailing" secondItem="41J-Ji-n6f" secondAttribute="leading" id="EeQ-1O-c5p"/>
                             <constraint firstAttribute="bottom" secondItem="g8Y-YS-4Zm" secondAttribute="bottom" id="FKz-zo-LFQ"/>
                             <constraint firstItem="41J-Ji-n6f" firstAttribute="leading" secondItem="gd5-My-5Zh" secondAttribute="leading" id="K2a-9A-EPs"/>
+                            <constraint firstItem="xvo-Gi-G38" firstAttribute="trailing" secondItem="vcW-s1-wMr" secondAttribute="trailing" id="S8Q-Yh-hlh"/>
                             <constraint firstItem="WnL-aI-vmf" firstAttribute="leading" secondItem="gd5-My-5Zh" secondAttribute="trailing" constant="20" id="WEq-8v-NbL"/>
                             <constraint firstItem="gd5-My-5Zh" firstAttribute="leading" secondItem="MO5-07-xgt" secondAttribute="leading" constant="40" id="a2x-rb-mDc"/>
                             <constraint firstItem="g8Y-YS-4Zm" firstAttribute="top" secondItem="MO5-07-xgt" secondAttribute="top" id="ayL-mO-JIp"/>
-                            <constraint firstItem="vcW-s1-wMr" firstAttribute="top" secondItem="TE2-H8-DHr" secondAttribute="bottom" id="eIk-K2-ONe"/>
+                            <constraint firstItem="xvo-Gi-G38" firstAttribute="top" secondItem="TE2-H8-DHr" secondAttribute="bottom" id="cuZ-Cd-JRE"/>
+                            <constraint firstItem="vcW-s1-wMr" firstAttribute="top" secondItem="xvo-Gi-G38" secondAttribute="bottom" id="eIk-K2-ONe"/>
                             <constraint firstItem="yDP-uO-gPc" firstAttribute="bottom" secondItem="MO5-07-xgt" secondAttribute="bottom" id="g4G-8c-Kr0"/>
                             <constraint firstItem="yDP-uO-gPc" firstAttribute="top" secondItem="MO5-07-xgt" secondAttribute="top" id="oJH-sn-1ND"/>
                             <constraint firstItem="WnL-aI-vmf" firstAttribute="top" secondItem="gd5-My-5Zh" secondAttribute="top" id="pjS-xG-z8u"/>
