@@ -349,6 +349,7 @@
 		B558E325286E388500678CF5 /* path_utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E318286E388500678CF5 /* path_utils.m */; };
 		B558E331286E3B8200678CF5 /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E330286E3B8200678CF5 /* JSButton.m */; };
 		B558E348286E404600678CF5 /* ShowAndFixGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B558E314286E388500678CF5 /* ShowAndFixGestureRecognizer.swift */; };
+		B558F942286FAD5A000FB84F /* game_dependent.mm in Sources */ = {isa = PBXBuildFile; fileRef = B558F941286FAD5A000FB84F /* game_dependent.mm */; };
 		B577E4BF285FA4B6002E7FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B577E4BE285FA4B6002E7FCF /* Assets.xcassets */; };
 		B577E4C2285FA4B6002E7FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B577E4C0285FA4B6002E7FCF /* LaunchScreen.storyboard */; };
 		B577E99B285FAAE4002E7FCF /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = B577E966285FAAE1002E7FCF /* ltm.c */; };
@@ -1349,6 +1350,8 @@
 		B558E317286E388500678CF5 /* SDL_uikitviewcontroller+Gamepad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDL_uikitviewcontroller+Gamepad.h"; sourceTree = "<group>"; };
 		B558E318286E388500678CF5 /* path_utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = path_utils.m; sourceTree = "<group>"; };
 		B558E330286E3B8200678CF5 /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSButton.m; path = Libraries/JSController/Controller/JSButton.m; sourceTree = "<group>"; };
+		B558F92D286FAC53000FB84F /* game_dependent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game_dependent.h; sourceTree = "<group>"; };
+		B558F941286FAD5A000FB84F /* game_dependent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = game_dependent.mm; sourceTree = "<group>"; };
 		B577E4B2285FA4B5002E7FCF /* dcss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dcss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B577E4BE285FA4B6002E7FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B577E4C1285FA4B6002E7FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -2364,6 +2367,7 @@
 				B558E315286E388500678CF5 /* SDL_uikitviewcontroller+VirtualKeyboardInput.m */,
 				B558E314286E388500678CF5 /* ShowAndFixGestureRecognizer.swift */,
 				B558E30C286E388500678CF5 /* ZipArchiver.swift */,
+				B558F92D286FAC53000FB84F /* game_dependent.h */,
 			);
 			name = source;
 			path = "Libraries/Cataclysm-DDA-iOS-commons/source";
@@ -2409,6 +2413,7 @@
 				B5FF5E8528638B4700D90679 /* dcss_ios.hpp */,
 				B59A53BC2867ABB90013E7DE /* CDDA_iOS_main.mm */,
 				B5A1E701286E4AE9009970E9 /* UIControls.storyboard */,
+				B558F941286FAD5A000FB84F /* game_dependent.mm */,
 			);
 			path = dcss;
 			sourceTree = "<group>";
@@ -2923,6 +2928,7 @@
 				B503A91A2868EC6B00C62C38 /* mon-transit.cc in Sources */,
 				B503A9442868EC6B00C62C38 /* l-view.cc in Sources */,
 				B503AA202868EC6B00C62C38 /* actor.cc in Sources */,
+				B558F942286FAD5A000FB84F /* game_dependent.mm in Sources */,
 				B503A9E92868EC6B00C62C38 /* view.cc in Sources */,
 				B503A92E2868EC6B00C62C38 /* main.cc in Sources */,
 				B503A9622868EC6B00C62C38 /* mapdef.cc in Sources */,
@@ -3218,6 +3224,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -3309,6 +3316,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
