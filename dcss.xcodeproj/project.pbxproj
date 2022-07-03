@@ -53,7 +53,6 @@
 		B503A93B2868EC6B00C62C38 /* map-knowledge.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A66D2868EC5400C62C38 /* map-knowledge.cc */; };
 		B503A93C2868EC6B00C62C38 /* uncancel.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A66F2868EC5400C62C38 /* uncancel.cc */; };
 		B503A93D2868EC6B00C62C38 /* l-mapgrd.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6702868EC5400C62C38 /* l-mapgrd.cc */; };
-		B503A93E2868EC6B00C62C38 /* zot.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6712868EC5400C62C38 /* zot.cc */; };
 		B503A93F2868EC6B00C62C38 /* luaterp.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6742868EC5400C62C38 /* luaterp.cc */; };
 		B503A9402868EC6B00C62C38 /* ghost.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A6772868EC5500C62C38 /* ghost.cc */; };
 		B503A9412868EC6B00C62C38 /* macro.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503A67A2868EC5500C62C38 /* macro.cc */; };
@@ -558,7 +557,6 @@
 		B503A62B2868EC5200C62C38 /* playable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = playable.h; path = "Libraries/crawl/crawl-ref/source/playable.h"; sourceTree = "<group>"; };
 		B503A62C2868EC5200C62C38 /* sqldbm.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sqldbm.cc; path = "Libraries/crawl/crawl-ref/source/sqldbm.cc"; sourceTree = "<group>"; };
 		B503A62D2868EC5200C62C38 /* tile-env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tile-env.h"; path = "Libraries/crawl/crawl-ref/source/tile-env.h"; sourceTree = "<group>"; };
-		B503A62E2868EC5200C62C38 /* kill-dump-options-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "kill-dump-options-type.h"; path = "Libraries/crawl/crawl-ref/source/kill-dump-options-type.h"; sourceTree = "<group>"; };
 		B503A62F2868EC5300C62C38 /* tilepick-p.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "tilepick-p.cc"; path = "Libraries/crawl/crawl-ref/source/tilepick-p.cc"; sourceTree = "<group>"; };
 		B503A6302868EC5300C62C38 /* game-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "game-type.h"; path = "Libraries/crawl/crawl-ref/source/game-type.h"; sourceTree = "<group>"; };
 		B503A6312868EC5300C62C38 /* dungeon-feature-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dungeon-feature-type.h"; path = "Libraries/crawl/crawl-ref/source/dungeon-feature-type.h"; sourceTree = "<group>"; };
@@ -625,7 +623,6 @@
 		B503A66E2868EC5400C62C38 /* coord-circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "coord-circle.h"; path = "Libraries/crawl/crawl-ref/source/coord-circle.h"; sourceTree = "<group>"; };
 		B503A66F2868EC5400C62C38 /* uncancel.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uncancel.cc; path = "Libraries/crawl/crawl-ref/source/uncancel.cc"; sourceTree = "<group>"; };
 		B503A6702868EC5400C62C38 /* l-mapgrd.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "l-mapgrd.cc"; path = "Libraries/crawl/crawl-ref/source/l-mapgrd.cc"; sourceTree = "<group>"; };
-		B503A6712868EC5400C62C38 /* zot.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zot.cc; path = "Libraries/crawl/crawl-ref/source/zot.cc"; sourceTree = "<group>"; };
 		B503A6722868EC5400C62C38 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = format.h; path = "Libraries/crawl/crawl-ref/source/format.h"; sourceTree = "<group>"; };
 		B503A6732868EC5400C62C38 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = "Libraries/crawl/crawl-ref/source/items.h"; sourceTree = "<group>"; };
 		B503A6742868EC5400C62C38 /* luaterp.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = luaterp.cc; path = "Libraries/crawl/crawl-ref/source/luaterp.cc"; sourceTree = "<group>"; };
@@ -916,7 +913,6 @@
 		B503A7922868EC5D00C62C38 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "Libraries/crawl/crawl-ref/source/ui.h"; sourceTree = "<group>"; };
 		B503A7932868EC5D00C62C38 /* spl-book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "spl-book.h"; path = "Libraries/crawl/crawl-ref/source/spl-book.h"; sourceTree = "<group>"; };
 		B503A7942868EC5D00C62C38 /* xom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xom.h; path = "Libraries/crawl/crawl-ref/source/xom.h"; sourceTree = "<group>"; };
-		B503A7952868EC5D00C62C38 /* zot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zot.h; path = "Libraries/crawl/crawl-ref/source/zot.h"; sourceTree = "<group>"; };
 		B503A7962868EC5D00C62C38 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = status.cc; path = "Libraries/crawl/crawl-ref/source/status.cc"; sourceTree = "<group>"; };
 		B503A7972868EC5D00C62C38 /* dgn-shoals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dgn-shoals.h"; path = "Libraries/crawl/crawl-ref/source/dgn-shoals.h"; sourceTree = "<group>"; };
 		B503A7982868EC5D00C62C38 /* shout.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shout.cc; path = "Libraries/crawl/crawl-ref/source/shout.cc"; sourceTree = "<group>"; };
@@ -1178,7 +1174,6 @@
 		B503A8992868EC6600C62C38 /* threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Libraries/crawl/crawl-ref/source/threads.h"; sourceTree = "<group>"; };
 		B503A89A2868EC6600C62C38 /* l-defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "l-defs.h"; path = "Libraries/crawl/crawl-ref/source/l-defs.h"; sourceTree = "<group>"; };
 		B503A89B2868EC6600C62C38 /* attitude-change.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "attitude-change.cc"; path = "Libraries/crawl/crawl-ref/source/attitude-change.cc"; sourceTree = "<group>"; };
-		B503A89C2868EC6600C62C38 /* level-gen-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "level-gen-type.h"; path = "Libraries/crawl/crawl-ref/source/level-gen-type.h"; sourceTree = "<group>"; };
 		B503A89D2868EC6600C62C38 /* tilereg-msg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tilereg-msg.h"; path = "Libraries/crawl/crawl-ref/source/tilereg-msg.h"; sourceTree = "<group>"; };
 		B503A89E2868EC6600C62C38 /* flang-t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "flang-t.h"; path = "Libraries/crawl/crawl-ref/source/flang-t.h"; sourceTree = "<group>"; };
 		B503A89F2868EC6600C62C38 /* dgn-proclayouts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dgn-proclayouts.h"; path = "Libraries/crawl/crawl-ref/source/dgn-proclayouts.h"; sourceTree = "<group>"; };
@@ -1751,7 +1746,6 @@
 				B503A7522868EC5B00C62C38 /* json.h */,
 				B503A7E02868EC5F00C62C38 /* KeymapContext.h */,
 				B503A87D2868EC6500C62C38 /* kill-category.h */,
-				B503A62E2868EC5200C62C38 /* kill-dump-options-type.h */,
 				B503A9092868EC6A00C62C38 /* kill-method-type.h */,
 				B503A6A02868EC5600C62C38 /* killer-type.h */,
 				B503A7D12868EC5F00C62C38 /* kills.cc */,
@@ -1792,7 +1786,6 @@
 				B503A8BE2868EC6700C62C38 /* lang-t.h */,
 				B503A6592868EC5400C62C38 /* lev-pand.cc */,
 				B503A80B2868EC6000C62C38 /* lev-pand.h */,
-				B503A89C2868EC6600C62C38 /* level-gen-type.h */,
 				B503A9082868EC6A00C62C38 /* level-id.h */,
 				B503A79A2868EC5D00C62C38 /* level-state-type.h */,
 				B503A6672868EC5400C62C38 /* libconsole.h */,
@@ -2243,8 +2236,6 @@
 				B503A7052868EC5800C62C38 /* xp-tracking-type.h */,
 				B503A7182868EC5900C62C38 /* zap-data.h */,
 				B503A6F22868EC5800C62C38 /* zap-type.h */,
-				B503A6712868EC5400C62C38 /* zot.cc */,
-				B503A7952868EC5D00C62C38 /* zot.h */,
 			);
 			name = source;
 			sourceTree = "<group>";
@@ -2889,7 +2880,6 @@
 				B503AA192868EC6B00C62C38 /* l-file.cc in Sources */,
 				B503A9562868EC6B00C62C38 /* describe.cc in Sources */,
 				B577E9B0285FAAE4002E7FCF /* lgc.c in Sources */,
-				B503A93E2868EC6B00C62C38 /* zot.cc in Sources */,
 				B503AA132868EC6B00C62C38 /* player-equip.cc in Sources */,
 				B503AA0D2868EC6B00C62C38 /* sprint.cc in Sources */,
 				B503A92F2868EC6B00C62C38 /* l-subvault.cc in Sources */,
@@ -3379,7 +3369,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -3388,7 +3378,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dcss/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dungeon Crawl - Stone Soup";
+				INFOPLIST_KEY_CFBundleDisplayName = "DCSS 0.28";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -3401,8 +3391,8 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios";
+				MARKETING_VERSION = 28.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios.28";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -3422,12 +3412,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 14;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dcss/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dungeon Crawl - Stone Soup";
+				INFOPLIST_KEY_CFBundleDisplayName = "DCSS 0.28";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -3440,8 +3430,8 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios";
+				MARKETING_VERSION = 28.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios.28";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
