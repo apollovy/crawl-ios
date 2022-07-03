@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Iwh-jC-guP">
-    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -18,14 +18,14 @@
                         <viewControllerLayoutGuide type="bottom" id="gQR-wU-Vhp"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MO5-07-xgt">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd5-My-5Zh" userLabel="Backtab button" customClass="JSButton">
-                                <rect key="frame" x="40" y="0.0" width="50" height="50"/>
+                                <rect key="frame" x="40" y="596" width="50" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="BTAB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khW-13-Blo">
-                                        <rect key="frame" x="0.0" y="14.5" width="42.5" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="14.5" width="42.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -45,10 +45,10 @@
                                 </connections>
                             </view>
                             <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WnL-aI-vmf" userLabel="Tab button" customClass="JSButton">
-                                <rect key="frame" x="110" y="0.0" width="50" height="50"/>
+                                <rect key="frame" x="110" y="596" width="50" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="TAB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfn-2i-rOK">
-                                        <rect key="frame" x="0.0" y="14.5" width="32" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="14.5" width="32" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -68,14 +68,14 @@
                                 </connections>
                             </view>
                             <view opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8Y-YS-4Zm" userLabel="Left Scrolling View">
-                                <rect key="frame" x="0.0" y="0.0" width="40" height="414"/>
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="1024"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Gtd-TY-zZw" appends="YES" id="jyT-Cu-PTy"/>
                                 </connections>
                             </view>
                             <view opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDP-uO-gPc" userLabel="Right Scrolling View">
-                                <rect key="frame" x="848" y="0.0" width="48" height="414"/>
+                                <rect key="frame" x="1318" y="0.0" width="48" height="1024"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="zLr-PW-2mL"/>
@@ -85,10 +85,10 @@
                                 </connections>
                             </view>
                             <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TE2-H8-DHr" userLabel="Escape button" customClass="JSButton">
-                                <rect key="frame" x="790" y="0.0" width="50" height="50"/>
+                                <rect key="frame" x="1256" y="596" width="50" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="ESC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-Xg-174">
-                                        <rect key="frame" x="17" y="14.5" width="33" height="21.5"/>
+                                        <rect key="frame" x="17" y="14.5" width="33" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -108,7 +108,7 @@
                                 </connections>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" alpha="0.25" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dPad-None.png" translatesAutoresizingMaskIntoConstraints="NO" id="41J-Ji-n6f">
-                                <rect key="frame" x="40" y="244" width="150" height="150"/>
+                                <rect key="frame" x="40" y="854" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="HVo-X2-S6C"/>
                                     <constraint firstAttribute="width" constant="150" id="tLq-QU-SvF"/>
@@ -119,7 +119,7 @@
                                 </connections>
                             </imageView>
                             <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Gi-G38" userLabel="Control-x" customClass="JSButton">
-                                <rect key="frame" x="765" y="50" width="75" height="50"/>
+                                <rect key="frame" x="1231" y="646" width="75" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="C-x" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Unz-1B-EhN">
                                         <rect key="frame" x="46.5" y="14" width="28.5" height="22"/>
@@ -142,7 +142,7 @@
                                 </connections>
                             </view>
                             <view opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcW-s1-wMr" userLabel="Return button" customClass="JSButton">
-                                <rect key="frame" x="765" y="100" width="75" height="50"/>
+                                <rect key="frame" x="1231" y="696" width="75" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="⮐" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgv-x1-RET" userLabel="⮐">
                                         <rect key="frame" x="53" y="14.5" width="22" height="21"/>
@@ -171,7 +171,7 @@
                             <constraint firstItem="yDP-uO-gPc" firstAttribute="trailing" secondItem="MO5-07-xgt" secondAttribute="trailing" id="7bJ-xV-dcp"/>
                             <constraint firstItem="gd5-My-5Zh" firstAttribute="top" secondItem="MO5-07-xgt" secondAttribute="top" priority="750" id="AGt-rY-OF5"/>
                             <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="gd5-My-5Zh" secondAttribute="top" constant="428" id="CEm-ox-Efc"/>
-                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gd5-My-5Zh" secondAttribute="top" constant="375" id="DcG-0c-IYO"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gd5-My-5Zh" secondAttribute="top" constant="300" id="DcG-0c-IYO"/>
                             <constraint firstItem="g8Y-YS-4Zm" firstAttribute="trailing" secondItem="41J-Ji-n6f" secondAttribute="leading" id="EeQ-1O-c5p"/>
                             <constraint firstAttribute="bottom" secondItem="g8Y-YS-4Zm" secondAttribute="bottom" id="FKz-zo-LFQ"/>
                             <constraint firstItem="41J-Ji-n6f" firstAttribute="leading" secondItem="gd5-My-5Zh" secondAttribute="leading" id="K2a-9A-EPs"/>
@@ -217,7 +217,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="252.45535714285714" y="-81.159420289855078"/>
+            <point key="canvasLocation" x="249" y="-45"/>
         </scene>
     </scenes>
     <resources>
