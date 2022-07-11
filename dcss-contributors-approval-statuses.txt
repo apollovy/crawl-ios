@@ -1,0 +1,504 @@
+kilobyte <kilobyte@angband.pl>
+PleasingFungus <pleasingfung@gmail.com>
+dolorous <dolorous@c06c8d41-db1a-0410-9941-cceddc491573>
+|amethyst <neil@s-z.org>
+kate- <chriscampbell89@gmail.com>
+dolorous <dolorous@users.sourceforge.net>
+by <rvollmert@gmx.net>
+advil <rawlins@gmail.com>
+Grunt <smelenchuk@gmail.com>
+galehar <raphael.langella@gmail.com>
+greensnark <dshaligram@c06c8d41-db1a-0410-9941-cceddc491573>
+wheals <shm.mark@gmail.com>
+gammafunk <gammafunk@gmail.com>
+jpeg <j-p-e-g@users.sourceforge.net>
+jpeg <j-p-e-g@c06c8d41-db1a-0410-9941-cceddc491573>
+ebering <trizor@gmail.com>
+due <bookofjude@users.sourceforge.net>
+haranp <haranp@c06c8d41-db1a-0410-9941-cceddc491573>
+Aidan Holm <aidanholm@gmail.com>
+DracoOmega <draco_omega@live.com>
+elliptic <hyperelliptical@gmail.com>
+kate- <601195+semitonal@users.noreply.github.com>
+edlothiol <flodiebold@gmail.com>
+Matthew_Cline <zelgadis@c06c8d41-db1a-0410-9941-cceddc491573>
+greensnark <dshaligram@users.sourceforge.net>
+doy <doy@tozt.net>
+ontoclasm <yokomeshi@gmail.com>
+evilmike <evilmike@gmail.com>
+mumra <pete@streamuniverse.tv>
+Lasty <corin@buchananhowland.net>
+neunon <steven@uplinklabs.net>
+bh <brendan@bhickey.net>
+dpeg <dploog@users.sourceforge.net>
+pointless_ <ottochar@gmail.com>
+Medar <pekka.lampila@iki.fi>
+Enne <ennewalker@c06c8d41-db1a-0410-9941-cceddc491573>
+Matthew_Cline <zelgadis@sourceforge.net>
+reaverb <reaverb.Crawl@gmail.com>
+dpeg <dploog@c06c8d41-db1a-0410-9941-cceddc491573>
+amalloy <alan@malloys.org>
+SamB <naesten@gmail.com>
+zaba <zaba@wybt.net>
+Keskitalo <evktalo@users.sourceforge.net>
+Alex Jurkiewicz <alex@jurkiewi.cz>
+Cryp71c <burnhamrobertp@gmail.com>
+ChrisOelmueller <chris.oelmueller@gmail.com>
+Brannock <isaac.sloat@gmail.com>
+tenofswords <mwclaws@gmail.com>
+sorear <stefanor@cox.net>
+Enne <enne.walker@gmail.com>
+hellmonk <nldehaan91@gmail.com>
+Enne <ennewalker@users.sourceforge.net>
+Keskitalo <eino.keskitalo@gmail.com>
+pauldubois <pauldubois@c06c8d41-db1a-0410-9941-cceddc491573>
+Nikolai Lavsky <3328424+nlavsky@users.noreply.github.com>
+zaba <zaba@thorium.homeunix.org>
+NormalPerson7 <cmrn.stphnsn@hotmail.com>
+wheals <whealswithinwheals@gmail.com>
+N78291 <N78291@gmail.com>
+Translators <crawl-ref-discuss@lists.sourceforge.net>
+Ixtli <cg@325i.org>
+Keskitalo <evktalo@c06c8d41-db1a-0410-9941-cceddc491573>
+regret-index <cloudofregret@live.com>
+pubby <pubby8@gmail.com>
+Aliscans <crawl@thimk.info>
+reaverb <reaverb.crawl@gmail.com>
+qoala <ed.gonzalez3@gmail.com>
+Eronarn <eronarn@gmail.com>
+greensnark <scintilla@gmail.com>
+Umer Shaikh <umer.f.shaikh@gmail.com>
+jpeg <j-p-e-g@sourceforge.net>
+Sage <SageBasilMint@gmail.com>
+haranp <haranp@users.sourceforge.net>
+infiniplex <infiniplex@hotmail.com>
+roctavian <sicsemperjohn@gmail.com>
+frogbotherer <therealchriswest@hotmail.com>
+peterb12 <peterb12@c06c8d41-db1a-0410-9941-cceddc491573>
+johnny0 <john.olender@gmail.com>
+felirx <felirx@gmail.com>
+Arxale <gafrie@gmail.com>
+DracoOmega <a@a.com>
+nicolae <xdt731@gmail.com>
+Goratrix <goratrix@chello.sk>
+ebering <ebering@csclub.uwaterloo.ca>
+nlanza <nlanza@c06c8d41-db1a-0410-9941-cceddc491573>
+Implojin <implosionwow@gmail.com>
+CanOfWorms <aqua_bass@hotmail.com>
+DrKe <jsinop@gmail.com>
+floraline <floraline@pobox.com>
+mumra <pete@downplay.co.uk>
+blackcustard <peterwicksstringfield@gmail.com>
+johnstein <boylejm@gmail.com>
+atomjack <atomjack@users.sourceforge.net>
+GreatZebu <akbecker@gmail.com>
+Luca Barbieri <luca@luca-barbieri.com>
+Wensley <ben.striegel@gmail.com>
+theJollySin <john_science@protonmail.com>
+Byrel Mitchell <brm@siteenhancementservices.com>
+RojjaCebolla <62170514+RojjaCebolla@users.noreply.github.com>
+Floodkiller <floodkiller3228@gmail.com>
+Mu <muuuuu@users.sourceforge.net>
+blueDave <dshackspam@comcast.net>
+nrook <nrook@google.com>
+Hurcan Solter <hsolter@gmail.com>
+mgdelmonte <mgdelmonte@gmail.com>
+Doesnt <doesntalt@gmail.com>
+Emily <vcs@emily.moe>
+BlackSheep <chris.terenzi@gmail.com>
+xale <code@xale.me>
+CommanderC <policarpocp@gmail.com>
+kitchen-ace <68k@quikphix.org>
+sdynet <sdynet76@gmail.com>
+Perry Fraser <me@pprogs.blog>
+Zannick <jokeserver@gmail.com>
+aegolden <aegolden@gmail.com>
+hyperactiveChipmunk <john.stahara@gmail.com>
+stenella <stenellad@gmail.com>
+DMBrownrigg <netsdanita@hotmail.com>
+Mu <muuuuu@gmail.com>
+argonaut <aolowin@gmail.com>
+Brendan Hickey <brendan.m.hickey@gmail.com>
+nikheizen <apricityacorn@gmail.com>
+NormalPerson7 <37064413+NormalPerson7@users.noreply.github.com>
+AdamPG <adampgardner@gmail.com>
+Yer mivvaggah <newtn.rh@gmail.com>
+reaverb <address.auto@gmail.com>
+Twinge <homelesspete@gmail.com>
+Thann <thann@linux.com>
+edsrzf <edsrzf@gmail.com>
+hellmonk3 <74919536+hellmonk3@users.noreply.github.com>
+tholmes <thomas@devminded.com>
+SteelNeuron <pablomansanet@gmail.com>
+Cedor <cedordark@yahoo.fr>
+William Parker <thewparker@gmail.com>
+Skrybe <44555912+Skrybe@users.noreply.github.com>
+minmay <a@cowmuffins.net>
+due <bookofjude@users.sourceforge.com>
+ldierk <lothar.dierkes@googlemail.com>
+gerbias <smitnich@onid.orst.edu>
+mursu <mtvepsal@gmail.com>
+kippig <cyprian.gascoigne@gmail.com>
+nlavsky <3328424+nlavsky@users.noreply.github.com>
+noxdominus <noxdominus@users.noreply.github.com>
+Joshua Gelbard <gelbard.joshua@gmail.com>
+Alex MacDonald <alex@alexjmacdonald.com>
+abrahamwl <abrahamwl@gmail.com>
+Naruni <kram321@gmail.com>
+wjchen <wjchen.vlsi@gmail.com>
+MainiacJoe <mainiacjoe@gmail.com>
+CoreyK <corey.kinsinger@gmail.com>
+floatingatoll <rsoderberg@gmail.com>
+cut1less <kazoon401@gmail.com>
+cjo <cjo@ulyco.com>
+ghallberg <ghallberg@gmail.com>
+Wensley <bstriegs@yahoo.com>
+AriaB <ariasayshi@gmail.com>
+st_ <clouded@users.sourceforge.net>
+Matt Mills <alpha.dev@gmail.com>
+Bodrick <bodricklight@gmail.com>
+DreamDust <83979029+DreamDustDCSS@users.noreply.github.com>
+amcnicky <proceduralindie@gmail.com>
+noxdominus <ndominus@yandex.ru>
+badplayer <roblund@gmail.com>
+giann <giann008@gmail.com>
+ArmiesAndCastles <viacheslav-v-chirkov@yandex.ru>
+nrook <nrook@wesleyan.edu>
+AreBrandon <rbrandonkime@gmail.com>
+rriegs <rriegs@gmail.com>
+Aliscans <34660344+Aliscans@users.noreply.github.com>
+paul <pdpollack@gmail.com>
+Doesnty <doesntalt@gmail.com>
+dplusplus <sulpsulpd@gmail.com>
+kenranunderscore <johb.maier@gmail.com>
+Yermak <33148474+Mindcrafter@users.noreply.github.com>
+Naruni <Naruni@crazynomad.org>
+Zhang Kai <yurimensk@163.com>
+Josh Braden <josbraden@gmail.com>
+yobbo <yobbobandana@yahoo.co.nz>
+bjobae <bjobae@gmail.com>
+RojjaCebolla <ro@twinoaks.org>
+Rolf K <abstractstar@gmail.com>
+4Hooves2Appendages <p@x0z.de>
+neofelis <mrtnaigner@gmail.com>
+Sandman25 <sandy12314@hotmail.com>
+robertxgray <robertxgray@gmail.com>
+KennySheep <hail_to_the_squid@hotmail.com>
+dilly <65288602+dillytin@users.noreply.github.com>
+yrmvgh <yrmvgh@users.noreply.github.com>
+Perry Fraser <perryprog@users.noreply.github.com>
+Hatsuma <lordhatsuma@gmail.com>
+oblivionis <oblivionis@users.noreply.github.com>
+EMTedronai <emtedronai@gmail.com>
+Henry <henry@localytics.com>
+rwbarton <rwbarton@gmail.com>
+smitnich <smitnich@onid.orst.edu>
+tmhedberg <t@tmh.cc>
+nonethousand <wizardosiris@gmail.com>
+CKyle <kylejfox@gmail.com>
+kittel <tkpub_ahnfyc@doki.dk>
+gmarks <marksg07@gmail.com>
+rchandra <mathie_uw@yahoo.ca>
+faze <chrishoney@gmail.com>
+Glenn Matthews <glenn@e-dad.net>
+RJ Cunningham <rjc6@rice.edu>
+tswett <tannerswett@gmail.com>
+atomjack <mark@swallowtail.org>
+mtitus_613 <mtitus_613@c06c8d41-db1a-0410-9941-cceddc491573>
+Napkin <napkin@develz.org>
+Mark Lodato <lodato@google.com>
+Alexx999 <alexx999@gmail.com>
+Ebonnov <Ebonnov@gmail.com>
+Martin Kennedy <hurricos@gmail.com>
+Jacob Meigs <jakemeigs@gmail.com>
+shieldal <alex.lynn.shields@gmail.com>
+Elliot Dronebarger <edon22@gmail.com>
+Quipyowert2 <38995150+Quipyowert2@users.noreply.github.com>
+Roarke <ruiroarke@gmail.com>
+drachereborn <kerwin.khu@gmail.com>
+Siegurt <keanan.smith@gmail.com>
+Higor Eurípedes <heuripedes@gmail.com>
+Colin Morris <colin.morris2@gmail.com>
+Peter Gerlagh <gerlagh2012@gmail.com>
+Sebastian Łużyński <sebastian.luzynski@gmail.com>
+David Damerell <damerell@chiark.greenend.org.uk>
+Sandman25DCSS <sandy12314@hotmail.com>
+RjY <rjy@users.sourceforge.net>
+Gopall <gopala2003@hotmail.com>
+hasufell <hasufell@posteo.de>
+valrus <thevalrus@hotmail.com>
+ufshaikh <ufshaikh@users.noreply.github.com>
+Goratrix <54112839+Goratrix@users.noreply.github.com>
+nagdon <m1nagdon@gmail.com>
+Matthew Tadd <matt.tadd@gmail.com>
+nfogravity <nfogravity@hotmail.com>
+Matthew Boeh <m@mboeh.com>
+anch0vy <anch0vy.korea@gmail.com>
+miek <triorph@gmail.com>
+nlavsky <n.lavsky@gmail.com>
+Brian Power <powerbf.it@gmail.com>
+mainiacjoe <67604772+mainiacjoe@users.noreply.github.com>
+Michael Nowack <288042+syranez@users.noreply.github.com>
+Emily <emilazy@users.noreply.github.com>
+Midn8 <36286364+Midn8@users.noreply.github.com>
+Mark Donahue <ciphernetic@gmail.com>
+Marcelo Henrique Cerri <mhcerri@gmail.com>
+klorpa <30924131+klorpa@users.noreply.github.com>
+kitchen-ace <47063032+kitchen-ace@users.noreply.github.com>
+Manderson <40340143+Ploomutoo@users.noreply.github.com>
+Moredread <code@andre-bubel.de>
+jvj24601 <drcraven1906@gmail.com>
+regret-index <cloudofregret@hotmail.com>
+riverfiend <63566628+riverfiend@users.noreply.github.com>
+Muffindrake <muffindrake@protonmail.ch>
+Lamil Lerran <lamillerran@hotmail.com>
+shummie <rbshum@gmail.com>
+sooheon <tngjs0@gmail.com>
+Alexei-Barnes <82444470+Alexei-Barnes@users.noreply.github.com>
+hedk3 <95384298+hedk3@users.noreply.github.com>
+toidinamai <frank@benkstein.net>
+Nicholas Feinberg <nicholas@liftoff.io>
+ukdong99 <70361302+ukdong99@users.noreply.github.com>
+Kieron Dunbar <crawl@thimk.info>
+4Hooves2Appendages <4Hooves2Appendages@users.noreply.github.com>
+geekosaur <allbery.b@gmail.com>
+Andrew O'Neill <foolusion@gmail.com>
+zuurr <chiovolonit@gmail.com>
+andreas <glaas@openmailbox.org>
+ChangeAj <aj.k.adamson@gmail.com>
+Pekkekke <41299914+Pekkekke@users.noreply.github.com>
+RangerC <ctownsend79@gmail.com>
+Chris Landry <lordhatsuma@gmail.com>
+Roberto <roberto.tomas.cuentas@gmail.com>
+Don Collins <don@suncrab.com>
+Heinrich Ody <heinrich.ody@gmail.com>
+Santiago Acosta <santiagoacosta777@gmail.com>
+HilariousDeathArtist <svoboda.ryan@gmail.com>
+Ahmad Hamidullah <ahamidullah@gmail.com>
+HousePet <andre_axem@hotmail.com>
+Stenella <35588191+stenellad@users.noreply.github.com>
+CrawlCycle <73139676+CrawlCycle@users.noreply.github.com>
+chereshnev <chereshnev@users.noreply.github.com>
+by <vollmert@a12.mi.fu-berlin.de>
+bones <x@y.z>
+blueDave <blueDave@gmail.com>
+James Buck <jamesbuck11@gmail.com>
+blabber <tobias.rehbein@web.de>
+Ashley Raine <ashley.elizabeth.raine@gmail.com>
+Yermak <Mindcrafter@users.noreply.github.com>
+Yermak <Yermak@mail.ru>
+Jared Miller <jtmiller@gmail.com>
+Zarchan <zachary.c.me@gmail.com>
+"Jay3.1415" <no@mail.com>
+Austin Appleby <aappleby@gmail.com>
+adibis <aditya.shevade@gmail.com>
+John Stilley <1831479+theJollySin@users.noreply.github.com>
+Diego Essaya <dessaya@gmail.com>
+Ben Haines <bhainesva@gmail.com>
+mwvdev <mwvdev@users.noreply.github.com>
+ncdulo <nick.cardullo@gmail.com>
+paulcdejean <paulcdejean@gmail.com>
+1Hyena <hyena@hyena.net.ee>
+Ada482 <ada482@users.noreply.github.com>
+Adam Heckler <aheckler@users.noreply.github.com>
+Aidan Holm <aidanholm+github@gmail.com>
+Alcon <jonathonnooner@gmail.com>
+AlexanderPosch <49498206+AlexanderPosch@users.noreply.github.com>
+AndSDev <andsdev@gmail.com>
+Anders Papitto <anderspapitto@gmail.com>
+Andrew York <andrew.g.york+github@gmail.com>
+Andy Roche <andy@roche.io>
+ArmiesAndCastles <89977716+ArmiesAndCastles@users.noreply.github.com>
+Autofire <autofire555@gmail.com>
+Benoit Giannangeli <benoit.giannangeli@boursorama.fr>
+"Bernhard M. Wiedemann" <githubbmw@lsmod.de>
+Björn Tegelund <b.tegelund@gmail.com>
+ByrelMitchell <44025439+ByrelMitchell@users.noreply.github.com>
+CKyle <kylefox2@illinois.edu>
+Captain Haddock <slade1118118+dcss@gmail.com>
+Captain Haddock <slade118118+dcss@gmail.com>
+Catherine Ball <cat@Catherines-MacBook-Pro.local>
+Chapayev <universal.darts.champion@gmail.com>
+Chloe Kudryavtsev <chloe.kudryavtsev@gmail.com>
+Chris Hamons <chris.hamons@gmail.com>
+Chris Rendle-Short <chris@killred.net>
+CipHuK <ciphuk@gmail.com>
+Cole Thompson <cole.thompson@gmail.com>
+Crestwave <35413013+Crestwave@users.noreply.github.com>
+Cryp71c <rburnham@760-C2N.AHA>
+DJgamer98 <DJgamer98@users.noreply.github.com>
+Dan Bryant <delphizealot@gmail.com>
+Dominic Kempf <dominic.kempf@iwr.uni-heidelberg.de>
+DreamDustDCSS <83979029+DreamDustDCSS@users.noreply.github.com>
+EC2 Default User <ec2-user@ip-172-31-44-185.us-west-2.compute.internal>
+EdDewey <ed.dewey@gmail.com>
+Edward Randtke <erandtke@gmail.com>
+"Edward Z. Yang" <ezyang@mit.edu>
+Eino Kewlskitalo <einokewl@Einos-MacBook-Pro.local>
+Elliot Dronebarger <elliot.dronebarger@gmail.com>
+Elliott Bernstein <elliottbernstein@users.noreply.github.com>
+Eugene Abramchuk <hayenne@gmail.com>
+Evan James <thasero@gmail.com>
+Fangorn <matt.tadd@gmail.com>
+Filip Michałowski <filip.michalowski.2016.10.14@gmail.com>
+Free Potion <42352817+freepotion@users.noreply.github.com>
+Furbeh <ufomanalien@gmail.com>
+Gabriel Marks <gabriel_marks@brown.edu>
+GenericPseudonym <nottheinferno@gmail.com>
+Gittourarmy <chomyeongsang@gmail.com>
+Glenn Matthews <glmatthe@cisco.com>
+Glenstorm <BurtonMatthewA@gmail.com>
+Goncyn <wjrogers@gmail.com>
+Gordon Quad <gordon@niflheim.info>
+Gregory Chereshnev <35115302+nonfreeblob@users.noreply.github.com>
+Gregory Chereshnev <chereshnev@users.noreply.github.com>
+Gregory Chereshnev <ndominus@yandex.ru>
+Grudge <golemmakerr@gmail.com>
+HenryFlower <arien.malec@gmail.com>
+Hong Won Gi <sesangsokuro@gmail.com>
+ICC <somewhat.fluffy@mail.ru>
+Ian Caltabiano <iancaltabiano@gmail.com>
+IronicDongz <quinn1697@gmail.com>
+Istvan Marko <mi-git@kismala.com>
+Jared C <jcuffe@gmail.com>
+Jason <jrtomsic@gmail.com>
+Jean Martel <32923410+jrmartel@users.noreply.github.com>
+Jeekaroose <sneakcow@gmail.com>
+Jeffery Stager <jffry09@gmail.com>
+Heon <blmarket@gmail.com>
+Johannes M <kenranunderscore@users.noreply.github.com>
+John Deeny <jdeeny@users.noreply.github.com>
+Jomel Imperio <jimperio@gmail.com>
+Jonathan Klabunde Tomer <jonathantomer@gmail.com>
+Josh Gelbard <gelbard.joshua@gmail.com>
+Josh Gelbard <jgelbard@student.42.us.org>
+Joshua Gelbard <jgelbard@e1z3r3p18.42.us.org>
+Kiëd Llaentenn <kiedtl@protonmail.com>
+Koen De Groote <kdg.private@gmail.com>
+Koushik Roy <koushik@meff.me>
+Kurper <kurper@gmail.com>
+Kurt Kartaltepe <kkartaltepe@gmail.com>
+LexAckson <alex.jackson@ert.com>
+MDvedh <mdvedh@yandex.ru>
+Marbit <rakenishu@gmail.com>
+Mark Lodato <lodatom@gmail.com>
+Martin Staffa <mjstaffa@gmail.com>
+Matthew Daley <mattd@bugfuzz.com>
+Michael Barlow <michaelbarlow7@gmail.com>
+Michael Del Monte <michael.delmonte@quovo.com>
+Michael Spang <mspang@csclub.uwaterloo.ca>
+Mikko Juola <mikko.juola@kolumbus.fi>
+MinticePIU <58921073+MinticePIU@users.noreply.github.com>
+Miron <mike.boutin@gmail.com>
+Mnoleg <Mnoleg@users.noreply.github.com>
+Monkooky <buisinessmonkey@gmail.com>
+Muffindrake <Muffindrake@users.noreply.github.com>
+Nabalzbhf <NabalzbhfQri@gmail.com>
+Nathan Mills <38995150+Quipyowert2@users.noreply.github.com>
+Nicholas Rosswood <instanthappypill@hotmail.com>
+Nick Johnstone <ncwjohnstone@gmail.com>
+Nicolae Carpathia <niqolay0@gmail.com>
+Nikhil Addleman <nik.addleman@gmail.com>
+Nikolay Amiantov <ab@fmap.me>
+Noah Azarin <noahazarin@users.noreply.github.com>
+Oneirical <96022417+Oneirical@users.noreply.github.com>
+Patashu <Timothy.Stiles@wisetechglobal.com>
+Peter Hurst <ph@downplay.co>
+Petri Salminen <petri@salminen.dev>
+Pikaro <git@pikaro.tk>
+Poroing <jean-18-09@hotmail.fr>
+Psymania <cdhanger@gmail.com>
+Quinten Konyn <crystalsolenoid@gmail.com>
+Richard Wardin <shalmezad@gmail.com>
+Roderick Schertler <roderick.schertler@ibcinc.com>
+Roderick Schertler <roderick@argon.org>
+Russell Dunk <russelldunk@gmail.com>
+Ryan <ryanmast@aol.com>
+Ryan McNeive <rmcneive@gmail.com>
+Sage <Immotian@yahoo.com>
+Sandman25 <Sandman25@hotmail.com>
+Sandman25 <sandman25@hotmail.com>
+Santiago Agustín Acosta <santiagoacosta777@gmail.com>
+Seve Monahan <reaverb.misc@gmail.com>
+Shanmukha Prasad Sivapurapu <shannu@localhost.localdomain>
+Shapermc <80350699+Shapermc@users.noreply.github.com>
+Shapermc <shapermc@gmail.com>
+Shmuale Mark <shmmark@gmail.com>
+Stephen <s.panicho@gmail.com>
+Thann <Thann@linux.com>
+Tomas Krag Hansen <6706947+kragt@users.noreply.github.com>
+Umer Shaikh <ufshaikh@users.noreply.github.com>
+Velros <loziip@hotmail.com>
+Vitaly <vit@mbp>
+Voker57 <voker57@gmail.com>
+WhiteShark <bconradc@gmail.com>
+Yuri Apollov <apollovy@icloud.com>
+Zaba <Zaba@users.noreply.github.com>
+a <robertgfaulk@gmail.com>
+aaronegolden <65754049+aaronegolden@users.noreply.github.com>
+achuah <anthony.w.chuah@gmail.com>
+ais523 <ais523@bham.ac.uk>
+alefury <chrischm@gmx.net>
+araganzar <snaprats@gmail.com>
+bfilia <brett.com@gmail.com>
+biasface <43894316+biasface@users.noreply.github.com>
+bstrie <865233+bstrie@users.noreply.github.com>
+burnish3d <zachary.c.me@gmail.com>
+croikle <croikle@gmail.com>
+"ctownsend79@gmail.com" <ctownsend79@gmail.com>
+dcandido <davidjoec@gmail.com>
+dicedlemming <dicedlemming@hotmail.com>
+dis_astranagant <gunofdis@users.sourceforge.net>
+dominiquelee <dominique.lee@grenoble-inp.org>
+dtsund <dtsund@email.arizona.edu>
+due <bookofjude@gmail.com>
+efredericks <e@efredericks.net>
+faze <chrishoney@roarlabs.com>
+gunofdis <dis.astranagant@gmail.com>
+hawthornbunny <hawthornrabbit@gmail.com>
+heftig <jan.steffens@gmail.com>
+hhkb <james.ravn@gmail.com>
+jdeeny <jdeeny@gmail.com>
+jilles <jilles@stack.nl>
+jiocy <quickgithub@mt2015.com>
+jmart <jeanrmartel@mail.com>
+karv <karvayoEdgar@gmail.com>
+khalil <khalil@tavern>
+knu <knu@idaemons.org>
+kpdonn <kdonnelly08@gmail.com>
+l33t-d00d <83296630+l33t-d00d@users.noreply.github.com>
+larry-he <larry.he@gatech.edu>
+marksg07 <gabriel_marks@brown.edu>
+miserium <newtzie@gmail.com>
+moxian <aleftmail@inbox.ru>
+mrwooster <guyht@me.com>
+ncdulo <kofrad@gmail.com>
+nfogravity <sbalady@gmail.com>
+nicolae <a@a.corm>
+nirrattner <nirrattner@gmail.com>
+nonfreeblob <nonfreeblob@yandex.com>
+nrook <nrook@nrook.com>
+palyth <ciphernetic@gmail.com>
+panicbit <panicbit@users.noreply.github.com>
+pblur <byrel.mitchell@gmail.com>
+pikaro <pikaro@users.noreply.github.com>
+psywombats <psy_wombats@wombatrpgs.net>
+randomMesh <randomMesh@github.com>
+rdunk <rdunk@mail.uoguelph.ca>
+rmcneive <44419782+rmcneive@users.noreply.github.com>
+robobario <robertyoungnz@gmail.com>
+rriegs <ryan@skytreecorp.com>
+runrin <52256543+runrin@users.noreply.github.com>
+scummos <svenbrauch@googlemail.com>
+sorear <stefan@localhost.localdomain>
+srvanmeter87 <veritasium87@gmail.com>
+suomenusko <suomenusko1@gmail.com>
+syranez <288042+syranez@users.noreply.github.com>
+tswett <swettt@mail.gvsu.edu>
+ukdong90 <ukdong90@gmail.com>
+unknown <reaverb.misc@gmail.com>
+waylon531 <waylon531@gmail.com>
+xFleury <fleurin@gmail.com>
+xorxor <bpshacklett@gmail.com>
+yrmvgh <newtn.rh@gmail.com>
+zulon <zulonz@gmail.com>
