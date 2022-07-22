@@ -18,8 +18,12 @@ default_platform(:ios)
 platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
-    increment_build_number(xcodeproj: "dcss.xcodeproj")
-    build_app(project: "dcss.xcodeproj", scheme: "dcss release")
+    make_ipa
     upload_to_testflight
+  end
+  desc "Create an IPA for sideloading or App store distribution"
+  lane :make_ipa do
+    increment_build_number(xcodeproj: "dcss.xcodeproj")
+    build_app(workspace: "dcss.xcworkspace", scheme: "dcss release")
   end
 end

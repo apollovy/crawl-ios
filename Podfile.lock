@@ -1,7 +1,7 @@
 PODS:
-  - Sentry (7.18.1):
-    - Sentry/Core (= 7.18.1)
-  - Sentry/Core (7.18.1)
+  - Sentry (7.21.0):
+    - Sentry/Core (= 7.21.0)
+  - Sentry/Core (7.21.0)
 
 DEPENDENCIES:
   - Sentry (~> 7)
@@ -11,7 +11,7 @@ SPEC REPOS:
     - Sentry
 
 SPEC CHECKSUMS:
-  Sentry: 2d70348d6247a29702a8317e710c5ba890672df5
+  Sentry: 194d0a2d4d6ef92c9c08c98d998340b0a63efd81
 
 PODFILE CHECKSUM: d86f7a775eb3238540129ee41bcc8f901fa22482
 
