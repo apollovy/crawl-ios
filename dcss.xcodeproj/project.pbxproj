@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1805BA8BDE7AD2A80B7350 /* Pods_dcss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57AB42F96A0716156F561F7 /* Pods_dcss.framework */; };
 		B503A5ED2868E26B00C62C38 /* docs in Resources */ = {isa = PBXBuildFile; fileRef = B503A5EC2868E26B00C62C38 /* docs */; };
 		B503A5EF2868E27400C62C38 /* dat in Resources */ = {isa = PBXBuildFile; fileRef = B503A5EE2868E27400C62C38 /* dat */; };
 		B503A5F22868E2F300C62C38 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B503A5F12868E2F300C62C38 /* fonts */; };
@@ -396,7 +397,6 @@
 		B5A1E706286E536F009970E9 /* dPad-None@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E705286E536F009970E9 /* dPad-None@2x.png */; };
 		B5A1E710286E582E009970E9 /* stone_soup_icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */; };
 		B5FF5E8628638B4800D90679 /* dcss_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5FF5E8428638B4700D90679 /* dcss_ios.cpp */; };
-		BBC74CDBE5D9E93366B2C77D /* Pods_dcss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -529,8 +529,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.debug.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.debug.xcconfig"; sourceTree = "<group>"; };
-		75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.release.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.release.xcconfig"; sourceTree = "<group>"; };
+		19AF4EF1EBF6CE2858CDD33C /* Pods-dcss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.debug.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.debug.xcconfig"; sourceTree = "<group>"; };
+		321C2A04B4F1B42090CF07EC /* Pods-dcss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dcss.release.xcconfig"; path = "Target Support Files/Pods-dcss/Pods-dcss.release.xcconfig"; sourceTree = "<group>"; };
 		B503A5EC2868E26B00C62C38 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = docs; path = "Libraries/crawl/crawl-ref/docs"; sourceTree = "<group>"; };
 		B503A5EE2868E27400C62C38 /* dat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dat; path = "Libraries/crawl/crawl-ref/source/dat"; sourceTree = "<group>"; };
 		B503A5F12868E2F300C62C38 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "Libraries/crawl/crawl-ref/source/contrib/fonts"; sourceTree = "<group>"; };
@@ -1422,6 +1422,7 @@
 		B577ED42285FC278002E7FCF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B577ED49285FC408002E7FCF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		B577ED4B285FC415002E7FCF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B57AB42F96A0716156F561F7 /* Pods_dcss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dcss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B581C7622869139100AB04A1 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
 		B581C764286913A300AB04A1 /* libMTLCapture.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLCapture.tbd; path = usr/lib/libMTLCapture.tbd; sourceTree = SDKROOT; };
 		B581C766286913C400AB04A1 /* libMTLToolsDiagnostics.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libMTLToolsDiagnostics.tbd; path = usr/lib/libMTLToolsDiagnostics.tbd; sourceTree = SDKROOT; };
@@ -1433,7 +1434,6 @@
 		B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stone_soup_icon-512x512.png"; path = "Libraries/crawl/crawl-ref/source/dat/tiles/stone_soup_icon-512x512.png"; sourceTree = SOURCE_ROOT; };
 		B5FF5E8428638B4700D90679 /* dcss_ios.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dcss_ios.cpp; sourceTree = "<group>"; };
 		B5FF5E8528638B4700D90679 /* dcss_ios.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dcss_ios.hpp; sourceTree = "<group>"; };
-		C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dcss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1460,7 +1460,7 @@
 				B54FB9142860C61800BA35A1 /* UIKit.framework in Frameworks */,
 				B577E9BC285FAB13002E7FCF /* libiconv.tbd in Frameworks */,
 				B577ED43285FC27D002E7FCF /* libsqlite3.tbd in Frameworks */,
-				BBC74CDBE5D9E93366B2C77D /* Pods_dcss.framework in Frameworks */,
+				AC1805BA8BDE7AD2A80B7350 /* Pods_dcss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1470,8 +1470,8 @@
 		A75D93222F403C86BE24195D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */,
-				75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */,
+				19AF4EF1EBF6CE2858CDD33C /* Pods-dcss.debug.xcconfig */,
+				321C2A04B4F1B42090CF07EC /* Pods-dcss.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -2450,7 +2450,7 @@
 				B577ED27285FBD0D002E7FCF /* GameController.framework */,
 				B577E9BB285FAB07002E7FCF /* libiconv.tbd */,
 				B577E904285FA9B9002E7FCF /* libintl.a */,
-				C37F2951B14A1963DCFCC101 /* Pods_dcss.framework */,
+				B57AB42F96A0716156F561F7 /* Pods_dcss.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2536,11 +2536,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B577E4C6285FA4B6002E7FCF /* Build configuration list for PBXNativeTarget "dcss" */;
 			buildPhases = (
-				6D1DAC223E03AA1942F38683 /* [CP] Check Pods Manifest.lock */,
+				364BC3719CCDC561FA0178AD /* [CP] Check Pods Manifest.lock */,
 				B577E4AE285FA4B5002E7FCF /* Sources */,
 				B577E4AF285FA4B5002E7FCF /* Frameworks */,
 				B577E4B0285FA4B5002E7FCF /* Resources */,
-				D60CA821362A0FA0374F17E7 /* [CP] Embed Pods Frameworks */,
+				044B54D3E6856EFE85FA2846 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2745,7 +2745,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D1DAC223E03AA1942F38683 /* [CP] Check Pods Manifest.lock */ = {
+		044B54D3E6856EFE85FA2846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364BC3719CCDC561FA0178AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2765,23 +2782,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D60CA821362A0FA0374F17E7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dcss/Pods-dcss-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -3362,14 +3362,14 @@
 		};
 		B577E4C7285FA4B6002E7FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BBE8F38BA4B623EC5F1B417 /* Pods-dcss.debug.xcconfig */;
+			baseConfigurationReference = 19AF4EF1EBF6CE2858CDD33C /* Pods-dcss.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -3405,14 +3405,14 @@
 		};
 		B577E4C8285FA4B6002E7FCF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A8C93D996FB7208E1FD203 /* Pods-dcss.release.xcconfig */;
+			baseConfigurationReference = 321C2A04B4F1B42090CF07EC /* Pods-dcss.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 26;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
