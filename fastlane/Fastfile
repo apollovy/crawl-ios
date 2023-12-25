@@ -17,14 +17,20 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
-  lane :beta do
+  lane :beta do |options|
+    build_crawl options
     increment_build_number(xcodeproj: "dcss.xcodeproj")
     build_app(workspace: "dcss.xcworkspace", scheme: "dcss release")
     upload_to_testflight
   end
   desc "Create an IPA for sideloading or App store distribution"
-  lane :make_ipa do
+  lane :make_ipa do |options|
+    build_crawl options
     increment_build_number(xcodeproj: "dcss.xcodeproj")
     build_app(workspace: "dcss.xcworkspace", scheme: "dcss release", include_bitcode: true)
+  end
+
+  lane :build_crawl do |options|
+    sh "cd ../Libraries/crawl/crawl-ref/source && make -j 16 all PYTHON=#{options[:python]} TILES=1"
   end
 end

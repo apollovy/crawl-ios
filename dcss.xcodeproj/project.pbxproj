@@ -331,6 +331,7 @@
 		B5122431286A60DD002A7C79 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B512240F286A5E58002A7C79 /* libSDL2.a */; platformFilter = ios; };
 		B5122432286A60E3002A7C79 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B503A6192868EBE800C62C38 /* libFreetype2.a */; };
 		B5122433286A60EA002A7C79 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5122428286A5E63002A7C79 /* libSDL2_image.a */; };
+		B53A73042B38DEA40077A9BA /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A73032B38DE570077A9BA /* libSDL2_mixer.a */; };
 		B54FB9142860C61800BA35A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB9132860C61800BA35A1 /* UIKit.framework */; };
 		B54FB9152860C63500BA35A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB9112860C5F100BA35A1 /* Foundation.framework */; };
 		B54FB9172860C65200BA35A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577ED49285FC408002E7FCF /* OpenGLES.framework */; };
@@ -518,6 +519,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 6382B1B10FB0FC5100ECAC02;
 			remoteInfo = Freetype2;
+		};
+		B53A73022B38DE570077A9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
+			remoteInfo = "Static Library";
+		};
+		B53A73052B38DEC00077A9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1FA90707AF96B2004B6283;
+			remoteInfo = "Static Library";
 		};
 		B581C74F2869124400AB04A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1316,6 +1331,7 @@
 		B51223F6286A5E58002A7C79 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = Libraries/SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
 		B5122420286A5E63002A7C79 /* SDL_image.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_image.xcodeproj; path = "Libraries/SDL_image/Xcode-iOS/SDL_image.xcodeproj"; sourceTree = "<group>"; };
 		B535E420286A6DF200B71D28 /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = "Libraries/freetype2-ios/freetype2.xcodeproj"; sourceTree = "<group>"; };
+		B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "Libraries/sdl2-mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = "<group>"; };
 		B54FB9112860C5F100BA35A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B54FB9132860C61800BA35A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B54FB9182860C67800BA35A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1441,6 +1457,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53A73042B38DEA40077A9BA /* libSDL2_mixer.a in Frameworks */,
 				B577ED32285FBD88002E7FCF /* AVFAudio.framework in Frameworks */,
 				B54FB91F2860C74C00BA35A1 /* ImageIO.framework in Frameworks */,
 				B5122433286A60EA002A7C79 /* libSDL2_image.a in Frameworks */,
@@ -2277,6 +2294,7 @@
 		B51223F5286A5E40002A7C79 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */,
 				B558E32F286E3A5900678CF5 /* JSController */,
 				B558E2EE286E386C00678CF5 /* Cataclysm-DDA-iOS-commons */,
 				B535E420286A6DF200B71D28 /* freetype2.xcodeproj */,
@@ -2319,6 +2337,14 @@
 			isa = PBXGroup;
 			children = (
 				B535E425286A6DF200B71D28 /* libFreetype2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53A72FF2B38DE570077A9BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53A73032B38DE570077A9BA /* libSDL2_mixer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2545,6 +2571,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B53A73062B38DEC00077A9BA /* PBXTargetDependency */,
 				B581C7502869124400AB04A1 /* PBXTargetDependency */,
 			);
 			name = dcss;
@@ -2595,6 +2622,10 @@
 				{
 					ProductGroup = B5122421286A5E63002A7C79 /* Products */;
 					ProjectRef = B5122420286A5E63002A7C79 /* SDL_image.xcodeproj */;
+				},
+				{
+					ProductGroup = B53A72FF2B38DE570077A9BA /* Products */;
+					ProjectRef = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -2722,6 +2753,13 @@
 			fileType = archive.ar;
 			path = libFreetype2.a;
 			remoteRef = B535E424286A6DF200B71D28 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B53A73032B38DE570077A9BA /* libSDL2_mixer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2_mixer.a;
+			remoteRef = B53A73022B38DE570077A9BA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -3159,6 +3197,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B53A73062B38DEC00077A9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = B53A73052B38DEC00077A9BA /* PBXContainerItemProxy */;
+		};
 		B581C7502869124400AB04A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Freetype2;
@@ -3235,6 +3278,7 @@
 					"USE_TILE_LOCAL=1",
 					"HAVE_STAT=1",
 					"WIZARD=1",
+					"USE_SOUND=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -3260,6 +3304,7 @@
 					"Libraries/crawl/crawl-ref/source/contrib/lua/src",
 					"Libraries/freetype2-ios/include",
 					Libraries/SDL_image,
+					"Libraries/sdl2-mixer",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					dcss/Binaries/glib/include,
@@ -3325,6 +3370,7 @@
 					"USE_TILE_LOCAL=1",
 					"HAVE_STAT=1",
 					"WIZARD=1",
+					"USE_SOUND=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -3349,6 +3395,7 @@
 					"Libraries/crawl/crawl-ref/source/contrib/lua/src",
 					"Libraries/freetype2-ios/include",
 					Libraries/SDL_image,
+					"Libraries/sdl2-mixer",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					dcss/Binaries/glib/include,
@@ -3369,7 +3416,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 2801;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -3379,6 +3426,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dcss/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DCSS 0.28";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -3391,7 +3439,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 28.0;
+				MARKETING_VERSION = 28.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios.28";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3412,12 +3460,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 2801;
 				DEVELOPMENT_TEAM = 3NJUD9MLAB;
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dcss/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "DCSS 0.28";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.role-playing-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -3430,7 +3478,7 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 28.0;
+				MARKETING_VERSION = 28.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.apollov.dcss-ios.28";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

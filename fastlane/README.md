@@ -31,6 +31,14 @@ Push a new beta build to TestFlight
 
 Create an IPA for sideloading or App store distribution
 
+### ios build_crawl
+
+```sh
+[bundle exec] fastlane ios build_crawl
+```
+
+
+
 ----
 
 This README.md is auto-generated and will be re-generated every time [_fastlane_](https://fastlane.tools) is run.
