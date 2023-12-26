@@ -328,10 +328,9 @@
 		B503AA632868ECAC00C62C38 /* tiledef-unrand.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503AA582868ECAC00C62C38 /* tiledef-unrand.cc */; };
 		B503AA642868ECAC00C62C38 /* tiledef-wall.cc in Sources */ = {isa = PBXBuildFile; fileRef = B503AA5A2868ECAC00C62C38 /* tiledef-wall.cc */; };
 		B503AA902868EEB000C62C38 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B503A6192868EBE800C62C38 /* libFreetype2.a */; };
-		B5122431286A60DD002A7C79 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B512240F286A5E58002A7C79 /* libSDL2.a */; platformFilter = ios; };
+		B5122431286A60DD002A7C79 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B512240F286A5E58002A7C79 /* libSDL2.a */; };
 		B5122432286A60E3002A7C79 /* libFreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B503A6192868EBE800C62C38 /* libFreetype2.a */; };
 		B5122433286A60EA002A7C79 /* libSDL2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5122428286A5E63002A7C79 /* libSDL2_image.a */; };
-		B53A73042B38DEA40077A9BA /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B53A73032B38DE570077A9BA /* libSDL2_mixer.a */; };
 		B54FB9142860C61800BA35A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB9132860C61800BA35A1 /* UIKit.framework */; };
 		B54FB9152860C63500BA35A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54FB9112860C5F100BA35A1 /* Foundation.framework */; };
 		B54FB9172860C65200BA35A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B577ED49285FC408002E7FCF /* OpenGLES.framework */; };
@@ -397,6 +396,7 @@
 		B5A1E703286E4BAB009970E9 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = B558E306286E388500678CF5 /* SDL_uikitviewcontroller+KeyboardKeysHandling.m */; };
 		B5A1E706286E536F009970E9 /* dPad-None@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E705286E536F009970E9 /* dPad-None@2x.png */; };
 		B5A1E710286E582E009970E9 /* stone_soup_icon-512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */; };
+		B5ACC6F22B3B89290076A6ED /* libSDL2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5ACC6F12B3B89150076A6ED /* libSDL2_mixer.a */; };
 		B5FF5E8628638B4800D90679 /* dcss_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5FF5E8428638B4700D90679 /* dcss_ios.cpp */; };
 /* End PBXBuildFile section */
 
@@ -520,26 +520,26 @@
 			remoteGlobalIDString = 6382B1B10FB0FC5100ECAC02;
 			remoteInfo = Freetype2;
 		};
-		B53A73022B38DE570077A9BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
-			remoteInfo = "Static Library";
-		};
-		B53A73052B38DEC00077A9BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BE1FA90707AF96B2004B6283;
-			remoteInfo = "Static Library";
-		};
 		B581C74F2869124400AB04A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B577ED1E285FB4B9002E7FCF /* freetype2.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6382B1B00FB0FC5100ECAC02;
 			remoteInfo = Freetype2;
+		};
+		B5ACC6F02B3B89150076A6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5ACC6EC2B3B89150076A6ED /* SDL_mixer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE1FA95407AF96B2004B6283;
+			remoteInfo = "Static Library";
+		};
+		B5ACC6F32B3B89300076A6ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5ACC6EC2B3B89150076A6ED /* SDL_mixer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1FA90707AF96B2004B6283;
+			remoteInfo = "Static Library";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1331,7 +1331,6 @@
 		B51223F6286A5E58002A7C79 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = Libraries/SDL/Xcode/SDL/SDL.xcodeproj; sourceTree = "<group>"; };
 		B5122420286A5E63002A7C79 /* SDL_image.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_image.xcodeproj; path = "Libraries/SDL_image/Xcode-iOS/SDL_image.xcodeproj"; sourceTree = "<group>"; };
 		B535E420286A6DF200B71D28 /* freetype2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = freetype2.xcodeproj; path = "Libraries/freetype2-ios/freetype2.xcodeproj"; sourceTree = "<group>"; };
-		B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "Libraries/sdl2-mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = "<group>"; };
 		B54FB9112860C5F100BA35A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B54FB9132860C61800BA35A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B54FB9182860C67800BA35A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -1448,6 +1447,7 @@
 		B5A1E704286E4CC0009970E9 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSButton.h; path = Libraries/JSController/Controller/JSButton.h; sourceTree = "<group>"; };
 		B5A1E705286E536F009970E9 /* dPad-None@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dPad-None@2x.png"; path = "Libraries/Cataclysm-DDA-iOS-commons/Bundle/JSDPad/dPad-None@2x.png"; sourceTree = "<group>"; };
 		B5A1E70F286E582E009970E9 /* stone_soup_icon-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stone_soup_icon-512x512.png"; path = "Libraries/crawl/crawl-ref/source/dat/tiles/stone_soup_icon-512x512.png"; sourceTree = SOURCE_ROOT; };
+		B5ACC6EC2B3B89150076A6ED /* SDL_mixer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL_mixer.xcodeproj; path = "Libraries/sdl2-mixer/Xcode-iOS/SDL_mixer.xcodeproj"; sourceTree = "<group>"; };
 		B5FF5E8428638B4700D90679 /* dcss_ios.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dcss_ios.cpp; sourceTree = "<group>"; };
 		B5FF5E8528638B4700D90679 /* dcss_ios.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dcss_ios.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1457,7 +1457,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53A73042B38DEA40077A9BA /* libSDL2_mixer.a in Frameworks */,
+				B5ACC6F22B3B89290076A6ED /* libSDL2_mixer.a in Frameworks */,
 				B577ED32285FBD88002E7FCF /* AVFAudio.framework in Frameworks */,
 				B54FB91F2860C74C00BA35A1 /* ImageIO.framework in Frameworks */,
 				B5122433286A60EA002A7C79 /* libSDL2_image.a in Frameworks */,
@@ -2294,7 +2294,7 @@
 		B51223F5286A5E40002A7C79 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */,
+				B5ACC6EC2B3B89150076A6ED /* SDL_mixer.xcodeproj */,
 				B558E32F286E3A5900678CF5 /* JSController */,
 				B558E2EE286E386C00678CF5 /* Cataclysm-DDA-iOS-commons */,
 				B535E420286A6DF200B71D28 /* freetype2.xcodeproj */,
@@ -2337,14 +2337,6 @@
 			isa = PBXGroup;
 			children = (
 				B535E425286A6DF200B71D28 /* libFreetype2.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B53A72FF2B38DE570077A9BA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B53A73032B38DE570077A9BA /* libSDL2_mixer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2555,6 +2547,14 @@
 			path = "Libraries/crawl/crawl-ref/source/contrib/lua/src";
 			sourceTree = "<group>";
 		};
+		B5ACC6ED2B3B89150076A6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5ACC6F12B3B89150076A6ED /* libSDL2_mixer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2571,7 +2571,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B53A73062B38DEC00077A9BA /* PBXTargetDependency */,
+				B5ACC6F42B3B89300076A6ED /* PBXTargetDependency */,
 				B581C7502869124400AB04A1 /* PBXTargetDependency */,
 			);
 			name = dcss;
@@ -2624,8 +2624,8 @@
 					ProjectRef = B5122420286A5E63002A7C79 /* SDL_image.xcodeproj */;
 				},
 				{
-					ProductGroup = B53A72FF2B38DE570077A9BA /* Products */;
-					ProjectRef = B53A72FE2B38DE570077A9BA /* SDL_mixer.xcodeproj */;
+					ProductGroup = B5ACC6ED2B3B89150076A6ED /* Products */;
+					ProjectRef = B5ACC6EC2B3B89150076A6ED /* SDL_mixer.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -2755,11 +2755,11 @@
 			remoteRef = B535E424286A6DF200B71D28 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B53A73032B38DE570077A9BA /* libSDL2_mixer.a */ = {
+		B5ACC6F12B3B89150076A6ED /* libSDL2_mixer.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSDL2_mixer.a;
-			remoteRef = B53A73022B38DE570077A9BA /* PBXContainerItemProxy */;
+			remoteRef = B5ACC6F02B3B89150076A6ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -3197,15 +3197,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B53A73062B38DEC00077A9BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Static Library";
-			targetProxy = B53A73052B38DEC00077A9BA /* PBXContainerItemProxy */;
-		};
 		B581C7502869124400AB04A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Freetype2;
 			targetProxy = B581C74F2869124400AB04A1 /* PBXContainerItemProxy */;
+		};
+		B5ACC6F42B3B89300076A6ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Static Library";
+			targetProxy = B5ACC6F32B3B89300076A6ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
